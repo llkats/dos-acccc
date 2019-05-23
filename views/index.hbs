@@ -1,0 +1,46 @@
+<main>
+  <h1>Census 2020</h1>
+  <section class="primary-languages">
+    {{> primary-languages-list }}
+  </section>
+
+  <section class="secondary-languages" id="secondary-languages-list" role="search">
+    <div class="more-icons">
+      <img class="languages-icon" src="./img/languages_icon.png" alt="find more language options below">
+      <i class="fas fa-arrow-down"></i>
+    </div>
+    <form class="secondary-languages-filter usa-search usa-search-big">
+      <label class="usa-sr-only" for="language-filter">More Languages</label>
+      <input
+        class="search"
+        id="language-filter"
+        name="search"
+        placeholder="Search for a language..."
+        title="Type in a language"
+        type="search"
+      >
+      <button type="submit">
+        <span class="usa-search-submit-text">Search</span>
+      </button>
+    </form>
+    {{> secondary-languages-list }}
+  </section>
+
+</main>
+<script src="/scripts/list.js"></script>
+<script type="text/javascript">
+  const secondaryLangs = {{{secondaryLanguagesJSON}}}
+
+  // list.js: https://listjs.com/docs/
+  const languagesList = new List('secondary-languages-list',
+    {
+      valueNames: [
+        'language',
+        {
+          name: 'enlang',
+          attr: 'data-enlang'
+        }
+      ]
+    }
+  );
+</script>

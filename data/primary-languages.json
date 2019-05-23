@@ -1,0 +1,42 @@
+{
+	"primaryLanguages": [{
+		"language": "English",
+		"enName": "english"
+	}, {
+		"language": "Español",
+		"enName": "spanish"
+	}, {
+		"language": "русский",
+		"enName": "russian"
+	}, {
+		"language": "Français",
+		"enName": "french"
+	}, {
+		"language": "中文",
+		"enName": "chinese"
+	}, {
+		"language": "عربى",
+		"enName": "arabic"
+	}, {
+		"language": "Ayisyen-kreyòl",
+		"enName": "haitian-creole"
+	}, {
+		"language": "Tiếng Việt",
+		"enName": "vietnamese"
+	}, {
+		"language": "Tagalog",
+		"enName": "tagalog"
+	}, {
+		"language": "Português",
+		"enName": "portugese"
+	}, {
+		"language": "한국어",
+		"enName": "korean"
+	}, {
+		"language": "Polskie",
+		"enName": "polish"
+	}, {
+		"language": "日本語",
+		"enName": "japanese"
+	}]
+}
