@@ -2,16 +2,16 @@
   "name": "hello-express",
   "version": "0.0.1",
   "description": "A simple Node app built on Express, instantly up and running.",
-  "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development"
   },
   "dependencies": {
     "express": "^4.16.4",
-    "uswds": "^2.0.2",
-    "handlebars": "^4.1.2",
     "express-handlebars": "^3.1.0",
-    "list.js": "^1.5.0"
+    "handlebars": "^4.1.2",
+    "list.js": "^1.5.0",
+    "uswds": "^2.0.2"
   },
   "engines": {
     "node": "8.x"
@@ -24,5 +24,13 @@
     "node",
     "glitch",
     "express"
-  ]
+  ],
+  "devDependencies": {
+    "handlebars-loader": "^1.7.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1",
+    "webpack-merge": "^4.2.1"
+  }
 }

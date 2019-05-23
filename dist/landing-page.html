@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+        Welcome to the Census 2020
+    </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <link rel="stylesheet" href="../../public/uswds.css">
+    <link rel="stylesheet" href="../../public/custom.css">
+  </head>
+  <body>
+    <main>
+      <h1>Census 2020</h1>
+      <section class="primary-languages">
+        <ul class="primary-list languages">
+        </ul>      </section>
+
+      <section class="secondary-languages" id="secondary-languages-list" role="search">
+        <div class="more-icons">
+          <img class="languages-icon" src="./img/languages_icon.png" alt="find more language options below">
+          <i class="fas fa-arrow-down"></i>
+        </div>
+        <form class="secondary-languages-filter usa-search usa-search-big">
+          <label class="usa-sr-only" for="language-filter">More Languages</label>
+          <input
+            class="search"
+            id="language-filter"
+            name="search"
+            placeholder="Search for a language..."
+            title="Type in a language"
+            type="search"
+          >
+          <button type="submit">
+            <span class="usa-search-submit-text">Search</span>
+          </button>
+        </form>
+        <ul class="secondary-list languages list" id="secondary-languages-list">
+        </ul>      </section>
+
+    </main>
+  <script type="text/javascript" src="main.js"></script></body>
+</html>

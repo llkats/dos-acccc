@@ -1,0 +1,24 @@
+{{#> layouts/base title="More info" }}
+  {{#*inline "body-content"}}
+    <main class="more-info-main">
+      <nav class="more-info-nav">
+        <a href="/" class="usa-button-big">
+          ← {{buttons.back}}
+        </a>
+        <a href="https://respond.census.gov/acs/#respond" class="usa-button-big">
+          {{buttons.start}} →
+        </a>
+      </nav>
+      <h1>{{content.h1}}</h1>
+
+      <p>
+        {{content.fact}}
+      </p>
+
+      <a href="https://respond.census.gov/acs/#respond" class="usa-button-big">
+        {{buttons.additionalResources}}
+      </a>
+
+    </main>
+  {{/inline}}
+{{/layouts/base}}
