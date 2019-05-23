@@ -1,0 +1,11 @@
+{
+  "buttons": {
+    "back": "back",
+    "start": "start",
+    "additionalResources": "additional resources"
+  }, 
+  "content": {
+    "h1": "Welcome!",
+    "fact": "Every single completed census means $20,000 for schools, medical care, children and families, transportation, and housing."
+  }
+}

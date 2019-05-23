@@ -1,0 +1,11 @@
+{
+  "buttons": {
+    "back": "regresa",
+    "start": "comienzo",
+    "additionalResources": "recursos adicionales"
+  }, 
+  "content": {
+    "h1": "¡Bienvenido!",
+    "fact": "Cada censo completo significa $20,000 para escuelas, atención médica, niños y familias, transporte y vivienda."
+  }
+}
