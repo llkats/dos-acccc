@@ -30,7 +30,7 @@ module.exports = mode => {
 
 module.exports = mode => {
   const pages = [
-    parts.page({ name: 'landing-page', title: 'landing' }),
+    parts.page({ name: 'index', title: 'landing' }),
     parts.page({ name: 'more-info', title: 'more info' }),
     parts.page({ name: 'resources', title: 'additional resources' })
   ]
