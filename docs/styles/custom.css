@@ -46,10 +46,11 @@ h1 {
 }
 
 .primary-list .usa-button-big {
+  margin: 0.15em;
   width: 230px;
 }
 
-.primary-list li:first-child {
+.primary-list li:last-child {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -60,12 +61,25 @@ h1 {
 }
 
 .secondary-languages .usa-button {
+  margin: 0.15em;
   width: 150px;
 }
 
 .secondary-languages-filter {
-  margin: 0 auto;
+  margin: 0 auto 2em;
   width: 50%;
+}
+
+.language-item {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.more-icons-container {
+  display: flex;
+  justify-content: center;
 }
 
 .arrow-icon {
