@@ -1,6 +1,6 @@
 <ul class="secondary-list languages list" id="secondary-languages-list">
-  {{#each secondaryLanguages}}
-    <li>
+  {{#each htmlWebpackPlugin.options.data.secondaryLanguages.secondaryLanguages}}
+    <li class="language-item">
       <button class="usa-button language enlang" data-enlang="{{enName}}">
         {{language}}
       </button>

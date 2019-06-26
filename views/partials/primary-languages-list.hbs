@@ -1,7 +1,7 @@
 <ul class="primary-list languages">
-  {{#each primaryLanguages}}
-    <li>
-      <a href="/more-info/{{enName}}" class="usa-button-big" data-enlang="{{enName}}">
+  {{#each htmlWebpackPlugin.options.data.primaryLanguages.primaryLanguages}}
+    <li class="language-item">
+      <a href="/more-info.html" class="usa-button-big" data-enlang="{{enName}}">
         {{language}}
       </a>
       <small>{{enName}}</small>

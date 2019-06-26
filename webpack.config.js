@@ -1,6 +1,8 @@
 const merge = require('webpack-merge')
 const path = require('path')
 
+const primaryLanguageData = require('./data/primary-languages')
+const secondaryLanguageData = require('./data/secondary-languages')
 const parts = require('./webpack.parts')
 
 const commonConfig = merge([{
@@ -30,8 +32,15 @@ module.exports = mode => {
 
 module.exports = mode => {
   const pages = [
-    parts.page({ name: 'index', title: 'landing' }),
     parts.page({ name: 'more-info', title: 'more info' }),
+    parts.page({
+      name: 'index',
+      title: 'landing',
+      data: {
+        primaryLanguages: primaryLanguageData,
+        secondaryLanguages: secondaryLanguageData
+      }
+    }),
     parts.page({ name: 'resources', title: 'additional resources' })
   ]
   const config =
