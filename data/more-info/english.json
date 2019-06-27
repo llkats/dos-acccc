@@ -1,4 +1,7 @@
 {
+  "meta": {
+    "enLang": "english"
+  },
   "buttons": {
     "back": "back",
     "start": "start",

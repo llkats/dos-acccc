@@ -13,9 +13,11 @@ exports.devServer = ({ host, port } = {}) => ({
 })
 
 exports.page = ({
+  data = {},
+  enLang,
   name = '',
-  title = '',
-  data = {}
+  outputDir = '',
+  title = ''
 } = {}) => ({
   module: {
     rules: [
@@ -32,7 +34,7 @@ exports.page = ({
       }
     }),
     new HtmlWebpackPlugin({
-      filename: `${name}.html`,
+      filename: `${outputDir}${enLang || name}.html`,
       template: `views/pages/${name}.hbs`,
       title,
       data

@@ -1,4 +1,7 @@
 {
+  "meta": {
+    "enLang": "spanish"
+  },
   "buttons": {
     "back": "regresa",
     "start": "comienzo",

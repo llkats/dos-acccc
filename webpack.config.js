@@ -1,9 +1,30 @@
-const merge = require('webpack-merge')
+// const { promisify } = require('util')
 const path = require('path')
+const fs = require('fs')
+const merge = require('webpack-merge')
 
 const primaryLanguageData = require('./data/primary-languages')
 const secondaryLanguageData = require('./data/secondary-languages')
+
 const parts = require('./webpack.parts')
+// const readFileAsync = promisify(fs.readFile)
+
+const buildMoreInfoPages = (dir, templateName) => {
+  const files = fs.readdirSync(dir)
+
+  return files.map((file) => {
+    const filePath = path.resolve(__dirname, 'data/more-info', file)
+    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'))
+
+    return parts.page({
+      enLang: data.meta.enLang,
+      name: templateName,
+      outputDir: 'more-info/',
+      title: 'more info',
+      data
+    })
+  })
+}
 
 const commonConfig = merge([{
   entry: './src/index.js',
@@ -12,6 +33,7 @@ const commonConfig = merge([{
     path: path.resolve(__dirname, 'docs')
   }
 }])
+
 const productionConfig = merge([])
 
 const developmentConfig = merge([
@@ -30,9 +52,11 @@ module.exports = mode => {
   return merge(commonConfig, developmentConfig, { mode })
 }
 
-module.exports = mode => {
+module.exports = (mode) => {
+  const moreInfoDir = './data/more-info'
+  const moreInfoPages = buildMoreInfoPages(moreInfoDir, 'more-info')
+
   const pages = [
-    parts.page({ name: 'more-info', title: 'more info' }),
     parts.page({
       name: 'index',
       title: 'landing',
@@ -41,8 +65,10 @@ module.exports = mode => {
         secondaryLanguages: secondaryLanguageData
       }
     }),
+    ...moreInfoPages,
     parts.page({ name: 'resources', title: 'additional resources' })
   ]
+
   const config =
     mode === 'production' ? productionConfig : developmentConfig
 
