@@ -43,7 +43,7 @@ TBD, but roughly:
 - templates
   - ~~introduce templates~~
   - ~~pass language in path to /more-info/:language page and render appropriate JSON file, falling back to English if no match~~
-  - create "additional resources" template and generate based on language
+  - ~create "additional resources" template and generate based on language~
   - prerender all templates with a build step and investigate caching
 - accessibility audits
   - accessibility will be of primary concern
@@ -51,6 +51,6 @@ TBD, but roughly:
 - browser testing
   - test in a wide range of browsers, especially Internet Explorer and Edge, and iOS tablet-size screens
 - version control
-  - maybe move to github
+  - ~maybe move to github~
 - hosting
-  - somewhere other than glitch?
+  - ~somewhere other than glitch?~
