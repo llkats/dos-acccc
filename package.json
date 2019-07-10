@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "description": "A simple Node app built on Express, instantly up and running.",
   "scripts": {
-    "build": "webpack --mode production",
-    "clean": "rm -r docs/**/*.html",
-    "start": "webpack-dev-server --mode development"
+    "build": "npm run clean && webpack --mode production",
+    "clean": "find ./docs -type f -name '*.html' -exec rm -r {} +",
+    "start": "npm run build && webpack-dev-server --mode development"
   },
   "dependencies": {
     "express": "^4.16.4",
