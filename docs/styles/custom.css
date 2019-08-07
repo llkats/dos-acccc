@@ -56,9 +56,12 @@ h1 {
   width: 100%;
 }
 
+.secondary-list {
+  min-height: 900px;
+}
+
 .secondary-languages {
   margin-top: 5rem;
-  min-height: 900px;
 }
 
 .secondary-languages .usa-button {
