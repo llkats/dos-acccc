@@ -58,6 +58,7 @@ h1 {
 
 .secondary-languages {
   margin-top: 5rem;
+  min-height: 900px;
 }
 
 .secondary-languages .usa-button {
