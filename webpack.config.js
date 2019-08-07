@@ -26,6 +26,23 @@ const buildMoreInfoPages = (dir, templateName) => {
   })
 }
 
+const buildResourcesPages = (dir, templateName) => {
+  const files = fs.readdirSync(dir)
+
+  return files.map((file) => {
+    const filePath = path.resolve(__dirname, 'data/resources', file)
+    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'))
+
+    return parts.page({
+      enLang: data.meta.enLang,
+      name: templateName,
+      outputDir: 'resources/',
+      title: 'resources',
+      data
+    })
+  })
+}
+
 const commonConfig = merge([{
   entry: './src/index.js',
   output: {
@@ -56,6 +73,9 @@ module.exports = (mode) => {
   const moreInfoDir = './data/more-info'
   const moreInfoPages = buildMoreInfoPages(moreInfoDir, 'more-info')
 
+  const resourcesDir = './data/resources'
+  const resourcesPages = buildResourcesPages(resourcesDir, 'resources')
+
   const pages = [
     parts.page({
       name: 'index',
@@ -66,7 +86,8 @@ module.exports = (mode) => {
       }
     }),
     ...moreInfoPages,
-    parts.page({ name: 'resources', title: 'additional resources' })
+    ...resourcesPages
+    // parts.page({ name: 'resources', title: 'additional resources' })
   ]
 
   const config =
