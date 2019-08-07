@@ -57,6 +57,7 @@ h1 {
 }
 
 .secondary-list {
+  align-content: flex-start;
   min-height: 900px;
 }
 
