@@ -39,6 +39,10 @@ TBD, but roughly:
 - [USDWS Design System](https://designsystem.digital.gov)
 - [List.js](https://listjs.com)
 
+### Resources
+- this was a good article on Handlebars partials: https://cloudfour.com/thinks/the-hidden-power-of-handlebars-partials/
+- [Survive JS - Webpack](https://survivejs.com/webpack/), particularly the chapters on [supporting multiple pages](https://survivejs.com/webpack/output/multiple-pages/) and [composing configuration](https://survivejs.com/webpack/developing/composing-configuration/)
+
 ### Programming Todos
 - templates
   - ~~introduce templates~~
