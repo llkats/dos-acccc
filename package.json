@@ -5,7 +5,7 @@
   "scripts": {
     "build": "npm run clean && webpack --mode production",
     "build-dev": "webpack --mode development",
-    "clean": "find ./resources ./more-info -type f -name '*.html' -exec rm -r {} + && rm ./index.html ./main.js",
+    "clean": "find ./resources ./more-info -type f -name '*.html' -exec rm -r {} + && rm -f ./index.html ./main.js",
     "start": "npm run build && webpack-dev-server --mode development"
   },
   "dependencies": {
