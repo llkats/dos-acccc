@@ -19,7 +19,6 @@ const buildMoreInfoPages = (dir, templateName) => {
       enLang: data.meta.enLang,
       name: templateName,
       outputDir: 'more-info/',
-      title: 'more info',
       data
     })
   })
@@ -36,7 +35,6 @@ const buildResourcesPages = (dir, templateName) => {
       enLang: data.meta.enLang,
       name: templateName,
       outputDir: 'resources/',
-      title: 'resources',
       data
     })
   })
@@ -79,6 +77,7 @@ module.exports = (mode) => {
     parts.page({
       name: 'index',
       title: 'landing',
+      assetPath: './public',
       data: {
         primaryLanguages: primaryLanguageData,
         secondaryLanguages: secondaryLanguageData
@@ -86,7 +85,6 @@ module.exports = (mode) => {
     }),
     ...moreInfoPages,
     ...resourcesPages
-    // parts.page({ name: 'resources', title: 'additional resources' })
   ]
 
   const config =

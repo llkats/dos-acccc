@@ -5,15 +5,15 @@
       {{#if title}}
         {{title}}
       {{else}}
-        Welcome to the Census 2020
+        title isn't coming through someone should fix this
       {{/if}}
     </title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-    <link rel="stylesheet" href="./styles/uswds.css" type="text/css">
-    <link rel="stylesheet" href="./styles/custom.css" type="text/css">
+
+    <link rel="stylesheet" href="{{assetPath}}/styles/uswds.css" type="text/css">
+    <link rel="stylesheet" href="{{assetPath}}/styles/custom.css" type="text/css">
   </head>
   <body>
     {{data}}

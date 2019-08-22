@@ -1,4 +1,4 @@
-{{#> layouts/base }}
+{{#> layouts/base title="Welcome to Alameda County 2020" assetPath="./public" }}
   {{#*inline "body-content"}}
     <main>
       <h1>Alameda County: Let's Get Counted 2020</h1>
@@ -8,7 +8,7 @@
 
       <section class="secondary-languages" id="secondary-languages-list" role="search">
         <div class="more-icons-container">
-          <img class="languages-icon" src="img/languages_icon.png" alt="find more language options below">
+          <img class="languages-icon" src="{{assetPath}}/img/languages_icon.png" alt="find more language options below">
           <i class="fas fa-arrow-down"></i>
         </div>
         <form class="secondary-languages-filter usa-search usa-search-big">

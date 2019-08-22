@@ -17,6 +17,7 @@ exports.page = ({
   enLang,
   name = '',
   outputDir = '',
+  assetPath = './public/',
   title = ''
 } = {}) => ({
   module: {
@@ -37,6 +38,7 @@ exports.page = ({
       filename: `${outputDir}${enLang || name}.html`,
       template: `views/pages/${name}.hbs`,
       title,
+      assetPath,
       data
     })
   ]
