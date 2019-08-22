@@ -4,7 +4,8 @@
   "description": "A simple Node app built on Express, instantly up and running.",
   "scripts": {
     "build": "npm run clean && webpack --mode production",
-    "clean": "find ./docs -type f -name '*.html' -exec rm -r {} +",
+    "build-dev": "webpack --mode development",
+    "clean": "find ./resources ./more-info -type f -name '*.html' -exec rm -r {} + && rm ./index.html ./main.js",
     "start": "npm run build && webpack-dev-server --mode development"
   },
   "dependencies": {

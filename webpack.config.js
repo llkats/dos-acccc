@@ -7,7 +7,6 @@ const primaryLanguageData = require('./data/primary-languages')
 const secondaryLanguageData = require('./data/secondary-languages')
 
 const parts = require('./webpack.parts')
-// const readFileAsync = promisify(fs.readFile)
 
 const buildMoreInfoPages = (dir, templateName) => {
   const files = fs.readdirSync(dir)
@@ -47,7 +46,7 @@ const commonConfig = merge([{
   entry: './src/index.js',
   output: {
     filename: 'main.js',
-    path: path.resolve(__dirname, 'docs')
+    path: path.resolve(__dirname)
   }
 }])
 
