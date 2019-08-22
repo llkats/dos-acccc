@@ -25,7 +25,7 @@ const buildSecondaryPages = (dir, templateName) => {
 }
 
 const commonConfig = merge([{
-  entry: './src/index.js',
+  entry: './public/index.js',
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname)
