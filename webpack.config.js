@@ -8,33 +8,17 @@ const secondaryLanguageData = require('./data/secondary-languages')
 
 const parts = require('./webpack.parts')
 
-const buildMoreInfoPages = (dir, templateName) => {
+const buildSecondaryPages = (dir, templateName) => {
   const files = fs.readdirSync(dir)
 
   return files.map((file) => {
-    const filePath = path.resolve(__dirname, 'data/more-info', file)
+    const filePath = path.resolve(__dirname, `data/${templateName}`, file)
     const data = JSON.parse(fs.readFileSync(filePath, 'utf8'))
 
     return parts.page({
       enLang: data.meta.enLang,
       name: templateName,
-      outputDir: 'more-info/',
-      data
-    })
-  })
-}
-
-const buildResourcesPages = (dir, templateName) => {
-  const files = fs.readdirSync(dir)
-
-  return files.map((file) => {
-    const filePath = path.resolve(__dirname, 'data/resources', file)
-    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'))
-
-    return parts.page({
-      enLang: data.meta.enLang,
-      name: templateName,
-      outputDir: 'resources/',
+      outputDir: `${templateName}/`,
       data
     })
   })
@@ -68,10 +52,10 @@ module.exports = mode => {
 
 module.exports = (mode) => {
   const moreInfoDir = './data/more-info'
-  const moreInfoPages = buildMoreInfoPages(moreInfoDir, 'more-info')
+  const moreInfoPages = buildSecondaryPages(moreInfoDir, 'more-info')
 
   const resourcesDir = './data/resources'
-  const resourcesPages = buildResourcesPages(resourcesDir, 'resources')
+  const resourcesPages = buildSecondaryPages(resourcesDir, 'resources')
 
   const pages = [
     parts.page({
