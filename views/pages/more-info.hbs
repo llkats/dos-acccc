@@ -11,9 +11,20 @@
       </nav>
       <h1>{{htmlWebpackPlugin.options.data.content.h1}}</h1>
 
-      <p>
-        {{htmlWebpackPlugin.options.data.content.fact}}
-      </p>
+      <section class="more-info-facts">
+        <div class="more-info-fact">
+          <img class="more-info-icon" src="{{assetPath}}/img/bullhorn.png" alt="bullhorn icon">
+          {{htmlWebpackPlugin.options.data.content.fact}}
+        </div>
+        <div class="more-info-fact">
+          <img class="more-info-icon" src="{{assetPath}}/img/hand-holding-money.png" alt="hand receiving money icon">
+          {{htmlWebpackPlugin.options.data.content.fact}}
+        </div>
+        <div class="more-info-fact">
+          <img class="more-info-icon" src="{{assetPath}}/img/community.png" alt="community icon">
+          {{htmlWebpackPlugin.options.data.content.fact}}
+        </div>
+      </section>
 
       <a href="/resources/{{htmlWebpackPlugin.options.data.meta.enLang}}.html" class="usa-button-big">
         {{htmlWebpackPlugin.options.data.buttons.additionalResources}}

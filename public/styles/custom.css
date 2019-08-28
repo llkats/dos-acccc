@@ -102,3 +102,16 @@ h1 {
   display: flex;
   justify-content: space-between;
 }
+
+.more-info-facts {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.more-info-fact {
+  padding: 0 1em;
+}
+
+.more-info-icon {
+  width: 250px;
+}

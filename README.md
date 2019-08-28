@@ -1,4 +1,4 @@
-ACCC 
+ACCC
 =================
 
 This project was first prototyped at the Open Oakland Day of Service 2019. Continued development occurs as part of the Open Oakland Brigade.
