@@ -6,9 +6,11 @@
     "back": "regresa",
     "start": "comienzo",
     "additionalResources": "recursos adicionales"
-  }, 
+  },
   "content": {
     "h1": "¡Bienvenido!",
-    "fact": "Cada censo completo significa $20,000 para escuelas, atención médica, niños y familias, transporte y vivienda."
+    "fact1": "El conteo del censo determina nuestra representación federal. Un conteo bajo podría costarle a California perder un asiento en el Congreso.",
+    "fact2": "Cada censo completo significa $20,000 para escuelas, atención médica, niños y familias, transporte y vivienda.",
+    "fact3": "Un conteo bajo tendría graves consecuencias para el Condado de Alameda. ¡El Censo 2020 requerirá que nos unamos para asegurar que todos sean contados!"
   }
 }
