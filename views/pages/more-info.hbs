@@ -2,10 +2,10 @@
   {{#*inline "body-content"}}
     <main class="more-info-main">
       <nav class="more-info-nav">
-        <a href="/" class="usa-button-big">
+        <a href="/" class="usa-button">
           ← {{htmlWebpackPlugin.options.data.buttons.back}}
         </a>
-        <a href="https://respond.census.gov/acs/#respond" class="usa-button-big">
+        <a href="https://respond.census.gov/acs/#respond" class="usa-button">
           {{htmlWebpackPlugin.options.data.buttons.start}} →
         </a>
       </nav>
@@ -14,19 +14,19 @@
       <section class="more-info-facts">
         <div class="more-info-fact">
           <img class="more-info-icon" src="{{assetPath}}/img/bullhorn.png" alt="bullhorn icon">
-          {{htmlWebpackPlugin.options.data.content.fact}}
+          <p>{{htmlWebpackPlugin.options.data.content.fact1}}</p>
         </div>
         <div class="more-info-fact">
           <img class="more-info-icon" src="{{assetPath}}/img/hand-holding-money.png" alt="hand receiving money icon">
-          {{htmlWebpackPlugin.options.data.content.fact}}
+          <p>{{htmlWebpackPlugin.options.data.content.fact2}}</p>
         </div>
         <div class="more-info-fact">
           <img class="more-info-icon" src="{{assetPath}}/img/community.png" alt="community icon">
-          {{htmlWebpackPlugin.options.data.content.fact}}
+          <p>{{htmlWebpackPlugin.options.data.content.fact3}}</p>
         </div>
       </section>
 
-      <a href="/resources/{{htmlWebpackPlugin.options.data.meta.enLang}}.html" class="usa-button-big">
+      <a href="/resources/{{htmlWebpackPlugin.options.data.meta.enLang}}.html" class="usa-button-big additional-resources-button">
         {{htmlWebpackPlugin.options.data.buttons.additionalResources}}
       </a>
 
