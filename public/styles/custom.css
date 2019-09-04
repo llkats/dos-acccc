@@ -24,7 +24,7 @@ a.usa-button-big {
 
 main {
   margin: 0 auto;
-  max-width: 75%;
+  max-width: 90%;
 }
 
 h1 {
@@ -98,6 +98,11 @@ h1 {
 }
 
 /* more-info.html */
+.more-info-main {
+  max-width: 90%;
+  text-align: center;
+}
+
 .more-info-nav {
   display: flex;
   justify-content: space-between;
@@ -105,13 +110,42 @@ h1 {
 
 .more-info-facts {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
+  justify-content: center;
 }
 
 .more-info-fact {
   padding: 0 1em;
+  text-align: center;
 }
 
 .more-info-icon {
-  width: 250px;
+  max-height: 100px;
+  width: auto;
+}
+
+.additional-resources-button {
+  width: 100%;
+}
+
+@media only screen and (min-width: 500px) {
+  main {
+    max-width: 75%;
+  }
+
+  .more-info-facts {
+    flex-flow: row nowrap;
+  }
+
+  .more-info-fact {
+    max-width: 100%;
+  }
+
+  .more-info-icon {
+    max-height: 200px;
+  }
+
+  .additional-resources-button {
+    max-width: 300px;
+  }
 }
