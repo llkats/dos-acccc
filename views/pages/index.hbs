@@ -1,7 +1,14 @@
 {{#> layouts/base title="Welcome to Alameda County 2020" assetPath="./public" }}
   {{#*inline "body-content"}}
     <main>
-      <h1>Alameda County: Let's Get Counted 2020</h1>
+      <header>
+        {{!-- <h1>Alameda County: Let's Get Counted 2020</h1> --}}
+        <picture class="main-logo-container">
+          <source srcset="{{assetPath}}/img/main-logo-sm-2x.png" media="(max-width:600px) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)">
+          <source srcset="{{assetPath}}/img/main-logo-sm.png" media="(max-width:600px)">
+          <img src="{{assetPath}}/img/main-logo.png" alt="Count Me In: Census 2020. Our community counts; our community belongs. Image of the seal of the County of Alameda California.">
+        </picture>
+      </header>
       <section class="primary-languages">
         {{> ../partials/primary-languages-list }}
       </section>
