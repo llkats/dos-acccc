@@ -1,14 +1,21 @@
 {{#> layouts/base title="More info" assetPath="./../public"}}
   {{#*inline "body-content"}}
     <main class="more-info-main">
-      <nav class="more-info-nav">
-        <a href="/" class="usa-button">
+      <header class="secondary-header">
+        <a href="/" class="secondary-header-nav secondary-header-nav__back usa-button">
           ← {{htmlWebpackPlugin.options.data.buttons.back}}
         </a>
-        <a href="https://respond.census.gov/acs/#respond" class="usa-button">
+        <picture class="secondary-logo-container">
+          <source srcset="{{assetPath}}/img/main-logo-sm-2x.png"
+            media="(max-width:600px) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)">
+          <source srcset="{{assetPath}}/img/main-logo-sm.png" media="(max-width:600px)">
+          <img src="{{assetPath}}/img/main-logo-sm.png"
+            alt="Count Me In: Census 2020. Our community counts; our community belongs. Image of the seal of the County of Alameda California.">
+        </picture>
+        <a href="https://respond.census.gov/acs/#respond" class="secondary-header-nav secondary-header-nav__start usa-button">
           {{htmlWebpackPlugin.options.data.buttons.start}} →
         </a>
-      </nav>
+      </header>
       <h1>{{htmlWebpackPlugin.options.data.content.h1}}</h1>
 
       <section class="more-info-facts">
