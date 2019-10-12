@@ -2,7 +2,7 @@
   {{#*inline "body-content"}}
     <main class="more-info-main">
       <header class="secondary-header">
-        <a href="/" class="secondary-header-nav secondary-header-nav__back usa-button">
+        <a href="/more-info/{{htmlWebpackPlugin.options.data.meta.enLang}}.html" class="secondary-header-nav secondary-header-nav__back usa-button">
           ← {{htmlWebpackPlugin.options.data.buttons.back}}
         </a>
         <picture class="secondary-logo-container">
@@ -17,7 +17,7 @@
         </a>
       </header>
 
-      <h1>Additional Resources</h1>
+      <h1>{{htmlWebpackPlugin.options.data.content.h1}}</h1>
 
       <ul>
         {{#each htmlWebpackPlugin.options.data.content.list}}
