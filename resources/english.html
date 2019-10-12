@@ -14,15 +14,23 @@
   <body>
     
     <main class="more-info-main">
-      <nav class="more-info-nav">
-        <a href="/" class="usa-button-big">
-          ← Go Back
+      <header class="secondary-header">
+        <a href="/" class="secondary-header-nav secondary-header-nav__back usa-button">
+          ← back
         </a>
-        <a href="https://respond.census.gov/acs/#respond" class="usa-button-big">
-          Start →
+        <picture class="secondary-logo-container">
+          <source srcset="./../public/img/main-logo-sm-2x.png"
+            media="(max-width:600px) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)">
+          <source srcset="./../public/img/main-logo-sm.png" media="(max-width:600px)">
+          <img src="./../public/img/main-logo-sm.png"
+            alt="Count Me In: Census 2020. Our community counts; our community belongs. Image of the seal of the County of Alameda California.">
+        </picture>
+        <a href="https://respond.census.gov/acs/#respond" class="secondary-header-nav secondary-header-nav__start usa-button">
+          start →
         </a>
-      </nav>
-      <h1>Additonal Resources</h1>
+      </header>
+
+      <h1>Additional Resources</h1>
 
       <ul>
         <li><a href="https://www.example.com">link one</a></li>
