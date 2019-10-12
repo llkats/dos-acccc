@@ -1,5 +1,8 @@
 {
 	"primaryLanguages": [{
+		"language": "English",
+		"enName": "english"
+	}, {
 		"language": "Español",
 		"enName": "spanish"
 	}, {
@@ -35,8 +38,5 @@
 	}, {
 		"language": "日本語",
 		"enName": "japanese"
-	}, {
-		"language": "English",
-		"enName": "english"
 	}]
 }
