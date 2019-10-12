@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "enLang": "russian"
+  },
+  "buttons": {
+    "back": "назад",
+    "start": "начинать"
+  },
+  "content": {
+    "h1": "Дополнительные ресурсы",
+    "list": [
+      {
+        "copy": "ссылка одна",
+        "link": "https://www.example.com"
+      },
+      {
+        "copy": "ссылка две",
+        "link": "https://www.example.com"
+      },
+      {
+        "copy": "ссылка три",
+        "link": "https://www.example.com"
+      }
+    ]
+  }
+}
