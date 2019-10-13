@@ -2,7 +2,10 @@
   {{#*inline "body-content"}}
     <main class="more-info-main">
       <header class="secondary-header">
-        <a href="/" class="secondary-header-nav secondary-header-nav__back usa-button">
+        <a
+          href="{{htmlWebpackPlugin.options.data.linkPath}}"
+          class="secondary-header-nav secondary-header-nav__back usa-button"
+        >
           ← {{htmlWebpackPlugin.options.data.buttons.back}}
         </a>
         <picture class="secondary-logo-container">

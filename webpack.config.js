@@ -8,7 +8,7 @@ const secondaryLanguageData = require('./data/secondary-languages')
 
 const parts = require('./webpack.parts')
 
-const buildSecondaryPages = (dir, templateName) => {
+const buildSecondaryPages = (dir, mode, templateName) => {
   const files = fs.readdirSync(dir)
 
   return files.map((file) => {
@@ -19,7 +19,11 @@ const buildSecondaryPages = (dir, templateName) => {
       enLang: data.meta.enLang,
       name: templateName,
       outputDir: `${templateName}/`,
-      data
+      data: {
+        ...data,
+        // TODO: move next line into something clever with production config and mapping
+        linkPath: mode === 'production' ? '/dos-acccc' : '/' // for correct GitHub Pages linking, supply the repo name
+      }
     })
   })
 }
@@ -42,20 +46,12 @@ const developmentConfig = merge([
   })
 ])
 
-module.exports = mode => {
-  if (mode === 'production') {
-    return merge(commonConfig, productionConfig, { mode })
-  }
-
-  return merge(commonConfig, developmentConfig, { mode })
-}
-
-module.exports = (mode) => {
+module.exports = (env, argv) => {
   const moreInfoDir = './data/more-info'
-  const moreInfoPages = buildSecondaryPages(moreInfoDir, 'more-info')
+  const moreInfoPages = buildSecondaryPages(moreInfoDir, argv.mode, 'more-info')
 
   const resourcesDir = './data/resources'
-  const resourcesPages = buildSecondaryPages(resourcesDir, 'resources')
+  const resourcesPages = buildSecondaryPages(resourcesDir, argv.mode, 'resources')
 
   const pages = [
     parts.page({
@@ -64,7 +60,8 @@ module.exports = (mode) => {
       assetPath: './public',
       data: {
         primaryLanguages: primaryLanguageData,
-        secondaryLanguages: secondaryLanguageData
+        secondaryLanguages: secondaryLanguageData,
+        linkPath: 'dos-acccc' // for correct GitHub Pages linking, supply the repo name
       }
     }),
     ...moreInfoPages,
@@ -72,9 +69,9 @@ module.exports = (mode) => {
   ]
 
   const config =
-    mode === 'production' ? productionConfig : developmentConfig
+    argv.mode === 'production' ? productionConfig : developmentConfig
 
   return pages.map(page =>
-    merge(commonConfig, config, page, { mode })
+    merge(commonConfig, config, page, { mode: argv.mode })
   )
 }
