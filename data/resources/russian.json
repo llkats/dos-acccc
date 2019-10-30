@@ -1,6 +1,7 @@
 {
   "meta": {
-    "enLang": "russian"
+    "enLang": "russian",
+    "code": "ru"
   },
   "buttons": {
     "back": "назад",

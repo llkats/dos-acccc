@@ -1,6 +1,7 @@
 {
   "meta": {
-    "enLang": "english"
+    "enLang": "english",
+    "code": "en"
   },
   "buttons": {
     "back": "back",
