@@ -22,7 +22,7 @@ const buildSecondaryPages = (dir, mode, templateName) => {
       data: {
         ...data,
         // TODO: move next line into something clever with production config and mapping
-        linkPath: mode === 'production' ? '/dos-acccc' : '/' // for correct GitHub Pages linking, supply the repo name
+        linkPath: mode === 'production' ? '/dos-acccc' : '' // for correct GitHub Pages linking, supply the repo name
       }
     })
   })
