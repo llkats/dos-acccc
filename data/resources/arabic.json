@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "enLang": "arabic",
+    "code": "arb"
+  },
+  "buttons": {
+    "back": "عودة",
+    "start": "بداية"
+  },
+  "content": {
+    "h1": "موارد إضافية",
+    "list": [
+      {
+        "copy": "ربط واحد",
+        "link": "https://www.example.com"
+      },
+      {
+        "copy": "ربط اثنين",
+        "link": "https://www.example.com"
+      },
+      {
+        "copy": "ربط ثلاثة",
+        "link": "https://www.example.com"
+      }
+    ]
+  }
+}
