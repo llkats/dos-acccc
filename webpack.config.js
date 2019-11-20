@@ -50,9 +50,6 @@ module.exports = (env, argv) => {
   const moreInfoDir = './data/more-info'
   const moreInfoPages = buildSecondaryPages(moreInfoDir, argv.mode, 'more-info')
 
-  const resourcesDir = './data/resources'
-  const resourcesPages = buildSecondaryPages(resourcesDir, argv.mode, 'resources')
-
   const pages = [
     parts.page({
       name: 'index',
@@ -64,8 +61,7 @@ module.exports = (env, argv) => {
         linkPath: 'dos-acccc' // for correct GitHub Pages linking, supply the repo name
       }
     }),
-    ...moreInfoPages,
-    ...resourcesPages
+    ...moreInfoPages
   ]
 
   const config =
