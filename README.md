@@ -67,6 +67,17 @@ TBD, but roughly:
 1. open a PR (write moar here)
 1. ping @llkats for a review
 
+### Generating Landing Page Copy
+
+Copy is provided in a Google Sheets document (ask @llkats for the link if you need access).
+
+1. Export the latest document as a CSV and save it as `data/copy/landing-page-copy.csv`.
+2. Transform the CSV into a JSON file with the following json-transformer script.
+
+```
+npm run build-json
+```
+
 ### Dependencies
 - [ExpressJS](https://expressjs.com/)
 - [Handlebars](http://handlebarsjs.com/)
