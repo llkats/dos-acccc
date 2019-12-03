@@ -126,19 +126,7 @@ h1 {
 }
 
 .more-info-facts {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-}
-
-.more-info-fact {
-  padding: 0 1em;
-  text-align: center;
-}
-
-.more-info-icon {
-  max-height: 100px;
-  width: auto;
+  margin: 10rem 0 5rem;
 }
 
 .additional-resources-button {
@@ -179,19 +167,6 @@ h1 {
 
   .secondary-header-nav__start {
     float: right;
-  }
-
-  .more-info-facts {
-    flex-flow: row nowrap;
-  }
-
-  .more-info-fact {
-    float: left;
-    max-width: 33%;
-  }
-
-  .more-info-icon {
-    max-height: 200px;
   }
 
   .additional-resources-button {

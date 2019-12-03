@@ -19,21 +19,13 @@
           {{htmlWebpackPlugin.options.data.buttons.start}} →
         </a>
       </header>
-      <h1>{{htmlWebpackPlugin.options.data.content.h1}}</h1>
 
       <section class="more-info-facts">
-        <div class="more-info-fact">
-          <img class="more-info-icon" src="{{assetPath}}/img/bullhorn.png" alt="bullhorn icon">
-          <p>{{htmlWebpackPlugin.options.data.content.fact1}}</p>
-        </div>
-        <div class="more-info-fact">
-          <img class="more-info-icon" src="{{assetPath}}/img/hand-holding-money.png" alt="hand receiving money icon">
-          <p>{{htmlWebpackPlugin.options.data.content.fact2}}</p>
-        </div>
-        <div class="more-info-fact">
-          <img class="more-info-icon" src="{{assetPath}}/img/community.png" alt="community icon">
-          <p>{{htmlWebpackPlugin.options.data.content.fact3}}</p>
-        </div>
+        <picture class="infographic">
+          {{!-- TODO: replace with final graphic and implement art direction --}}
+          <source>
+          <img src="{{assetPath}}/img/infographic-lg.png" alt="{{htmlWebpackPlugin.options.data.content.infographicExplainer}}">
+        </picture>
       </section>
 
       <a
