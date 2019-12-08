@@ -1,5 +1,5 @@
 {
-  "name": "hello-express",
+  "name": "dos-acccc",
   "version": "0.0.1",
   "description": "A simple Node app built on Express, instantly up and running.",
   "scripts": {
@@ -32,7 +32,7 @@
     "csv2json": "^2.0.1",
     "handlebars-loader": "^1.7.1",
     "html-webpack-plugin": "^3.2.0",
-    "webpack": "^4.32.2",
+    "webpack": "^4.41.2",
     "webpack-cli": "^3.3.2",
     "webpack-dev-server": "^3.4.1",
     "webpack-merge": "^4.2.1"
