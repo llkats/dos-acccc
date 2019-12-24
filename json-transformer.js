@@ -20,7 +20,8 @@ const convertJsonToReadableJson = (data) => {
 
     const mainPagePlacement = {
       language: words['Language Name (in Native Script)'],
-      enName: Language
+      enName: Language,
+      enLowercase: Language.toLowerCase()
     }
 
     if (words['Page Position'] === 'Top') {

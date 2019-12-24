@@ -1,6 +1,5 @@
 // const { promisify } = require('util')
 const path = require('path')
-const fs = require('fs')
 const merge = require('webpack-merge')
 
 const languageData = require('./data/copy/landing-page-copy.json')
@@ -8,14 +7,10 @@ const languageData = require('./data/copy/landing-page-copy.json')
 const parts = require('./webpack.parts')
 
 const buildSecondaryPages = (dir, mode, templateName) => {
-  const files = fs.readdirSync(dir)
 
-  return files.map((file) => {
-    const filePath = path.resolve(__dirname, `data/${templateName}`, file)
-    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'))
-
+  return languageData.languages.map((data) => {
     return parts.page({
-      enLang: data.meta.enLang,
+      enLang: data.language,
       name: templateName,
       outputDir: `${templateName}/`,
       data: {
