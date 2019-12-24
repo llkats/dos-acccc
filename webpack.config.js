@@ -3,8 +3,6 @@ const path = require('path')
 const fs = require('fs')
 const merge = require('webpack-merge')
 
-const primaryLanguageData = require('./data/primary-languages')
-const secondaryLanguageData = require('./data/secondary-languages')
 const languageData = require('./data/copy/landing-page-copy.json')
 
 const parts = require('./webpack.parts')
