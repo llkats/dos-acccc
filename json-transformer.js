@@ -13,36 +13,54 @@ const convertJsonToReadableJson = (data) => {
     return false
   }
 
-  return JSON.stringify(
-    data.map((language, i) => {
-      const { Language, ...words } = language
-      const processedWords = Object.keys(words).map(key => {
-        const value = words[key]
+  let primaryLanguages = []
+  let secondaryLanguages = []
+  const words = data.map((language, i) => {
+    const { Language, ...words } = language
 
-        if (key === '2020 Census') {
-          return {
-            census2020: value
-          }
-        }
+    const mainPagePlacement = {
+      language: words['Language Name (in Native Script)'],
+      enName: Language
+    }
 
-        const parensRegex = /\(|\)/g
-        if (key.match(parensRegex)) {
-          return {
-            [camelcase(key.replace(parensRegex, ''))]: value
-          }
-        }
+    if (words['Page Position'] === 'Top') {
+      primaryLanguages.push(mainPagePlacement)
+    } else {
+      secondaryLanguages.push(mainPagePlacement)
+    }
 
+    const processedWords = Object.keys(words).map((key, i) => {
+      const value = words[key]
+
+      if (key === '2020 Census') {
         return {
-          [camelcase(key)]: value
+          census2020: value
         }
-      })
+      }
+
+      const parensRegex = /\(|\)/g
+      if (key.match(parensRegex)) {
+        return {
+          [camelcase(key.replace(parensRegex, ''))]: value
+        }
+      }
 
       return {
-        language: Language,
-        words: processedWords
+        [camelcase(key)]: value
       }
     })
-  )
+
+    return {
+      language: Language,
+      words: processedWords
+    }
+  })
+
+  return JSON.stringify({
+    primaryLanguages,
+    secondaryLanguages,
+    words
+  })
 }
 
 async function main () {
@@ -57,6 +75,8 @@ async function main () {
   csv({ flatKeys: true })
     .fromFile(filename)
     .then((data) => {
+      // writeFile(outputName, convertJsonToReadableJson(data))
+      // writeFile(outputName, convertJsonToReadableJson(data))
       writeFile(outputName, convertJsonToReadableJson(data))
     })
 }

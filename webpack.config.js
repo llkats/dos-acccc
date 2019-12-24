@@ -5,6 +5,7 @@ const merge = require('webpack-merge')
 
 const primaryLanguageData = require('./data/primary-languages')
 const secondaryLanguageData = require('./data/secondary-languages')
+const copy = require('./data/copy/landing-page-copy.json')
 
 const parts = require('./webpack.parts')
 
@@ -58,6 +59,7 @@ module.exports = (env, argv) => {
       data: {
         primaryLanguages: primaryLanguageData,
         secondaryLanguages: secondaryLanguageData,
+        copy,
         linkPath: 'dos-acccc' // for correct GitHub Pages linking, supply the repo name
       }
     }),
