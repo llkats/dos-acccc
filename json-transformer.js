@@ -15,7 +15,7 @@ const convertJsonToReadableJson = (data) => {
 
   let primaryLanguages = []
   let secondaryLanguages = []
-  const words = data.map((language, i) => {
+  const languages = data.map((language, i) => {
     const { Language, ...words } = language
 
     const mainPagePlacement = {
@@ -59,7 +59,7 @@ const convertJsonToReadableJson = (data) => {
   return JSON.stringify({
     primaryLanguages,
     secondaryLanguages,
-    words
+    languages
   })
 }
 
