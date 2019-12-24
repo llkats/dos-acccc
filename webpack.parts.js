@@ -18,28 +18,32 @@ exports.page = ({
   name = '',
   outputDir = '',
   assetPath = './public/',
+  linkPath = '',
   title = ''
-} = {}) => ({
-  module: {
-    rules: [
-      {
-        test: /\.hbs$/,
-        loader: 'handlebars-loader'
-      }
+} = {}) => {
+  // console.log(data, '*** data parts')
+  return {
+    module: {
+      rules: [
+        {
+          test: /\.hbs$/,
+          loader: 'handlebars-loader'
+        }
+      ]
+    },
+    plugins: [
+      new webpack.LoaderOptionsPlugin({
+        options: {
+          handlebarsLoader: {}
+        }
+      }),
+      new HtmlWebpackPlugin({
+        filename: `${outputDir}${enLang || name}.html`,
+        template: `views/pages/${name}.hbs`,
+        title,
+        assetPath,
+        data
+      })
     ]
-  },
-  plugins: [
-    new webpack.LoaderOptionsPlugin({
-      options: {
-        handlebarsLoader: {}
-      }
-    }),
-    new HtmlWebpackPlugin({
-      filename: `${outputDir}${enLang || name}.html`,
-      template: `views/pages/${name}.hbs`,
-      title,
-      assetPath,
-      data
-    })
-  ]
-})
+  }
+}

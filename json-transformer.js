@@ -6,6 +6,7 @@ const camelcase = require('camelcase')
 const csv = require('csvtojson')
 
 const writeFile = util.promisify(fs.writeFile)
+const parensRegex = /\(|\)/g
 
 const convertJsonToReadableJson = (data) => {
   if (!data) {
@@ -30,24 +31,16 @@ const convertJsonToReadableJson = (data) => {
       secondaryLanguages.push(mainPagePlacement)
     }
 
-    const processedWords = Object.keys(words).map((key, i) => {
+    let processedWords = {}
+    Object.keys(words).forEach((key) => {
       const value = words[key]
 
       if (key === '2020 Census') {
-        return {
-          census2020: value
-        }
-      }
-
-      const parensRegex = /\(|\)/g
-      if (key.match(parensRegex)) {
-        return {
-          [camelcase(key.replace(parensRegex, ''))]: value
-        }
-      }
-
-      return {
-        [camelcase(key)]: value
+        processedWords['census2020'] = value
+      } else if (key.match(parensRegex)) {
+        processedWords[camelcase(key.replace(parensRegex, ''))] = value
+      } else {
+        processedWords[camelcase(key)] = value
       }
     })
 

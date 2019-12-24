@@ -2,12 +2,10 @@
 const path = require('path')
 const merge = require('webpack-merge')
 
+const parts = require('./webpack.parts')
 const languageData = require('./data/copy/landing-page-copy.json')
 
-const parts = require('./webpack.parts')
-
 const buildSecondaryPages = (dir, mode, templateName) => {
-
   return languageData.languages.map((data) => {
     return parts.page({
       enLang: data.language,

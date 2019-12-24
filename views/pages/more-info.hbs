@@ -13,10 +13,10 @@
             media="(max-width:600px) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)">
           <source srcset="{{assetPath}}/img/main-logo-sm.png" media="(max-width:600px)">
           <img src="{{assetPath}}/img/main-logo-sm.png"
-            alt="Count Me In: Census 2020. Our community counts; our community belongs. Image of the seal of the County of Alameda California.">
+            alt="{{htmlWebpackPlugin.options.data.words.infographicExplainer}}">
         </picture>
         <a href="https://respond.census.gov/acs/#respond" class="secondary-header-nav secondary-header-nav__start usa-button">
-          {{htmlWebpackPlugin.options.data.buttons.start}} →
+          {{htmlWebpackPlugin.options.data.words.censusQuestionnaire}} →
         </a>
       </header>
 
@@ -29,10 +29,10 @@
       </section>
 
       <a
-        href="https://www.google.com"
+        href="{{htmlWebpackPlugin.options.data.words.linkToGoogleDrive}}"
         class="usa-button-big additional-resources-button"
       >
-        {{htmlWebpackPlugin.options.data.buttons.additionalResources}}
+        {{htmlWebpackPlugin.options.data.words.languageGuideGuideToCompleteThe2020Census}}
       </a>
 
     </main>
