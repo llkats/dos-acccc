@@ -110,10 +110,14 @@ h1 {
   order: 0;
 }
 
-.secondary-header {
+.secondary-header nav {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+.secondary-header-nav.usa-button {
+  margin: 0.5em 0;
 }
 
 .secondary-header-nav {
@@ -126,11 +130,26 @@ h1 {
 }
 
 .more-info-facts {
-  margin: 10rem 0 5rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 2rem 0;
 }
 
 .additional-resources-button {
   width: 100%;
+}
+
+.infographic-down-arrow {
+  height: 176px;
+  width: 108px;
+}
+
+.infographic-right-arrow {
+  display: none;
+  height: 104px;
+  width: 176px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -145,9 +164,7 @@ h1 {
   }
 
   .secondary-logo-container {
-    position: absolute;
-    left: 50%;
-    margin-left: -150px;
+    margin: 0 auto;
   }
 
   .secondary-header-nav {
@@ -169,7 +186,19 @@ h1 {
     float: right;
   }
 
+  .more-info-facts {
+    flex-direction: row;
+    margin: 10rem 0 5rem;
+  }
+
   .additional-resources-button {
     max-width: 300px;
+  }
+
+  .infographic-down-arrow {
+    display: none;
+  }
+  .infographic-right-arrow {
+    display: block;
   }
 }

@@ -2,30 +2,30 @@
   {{#*inline "body-content"}}
     <main class="more-info-main">
       <header class="secondary-header">
-        <a
-          href="{{htmlWebpackPlugin.options.data.linkPath}}"
-          class="secondary-header-nav secondary-header-nav__back usa-button"
-        >
-          ← {{htmlWebpackPlugin.options.data.buttons.back}}
-        </a>
         <picture class="secondary-logo-container">
           <source srcset="{{assetPath}}/img/main-logo-sm-2x.png"
             media="(max-width:600px) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)">
           <source srcset="{{assetPath}}/img/main-logo-sm.png" media="(max-width:600px)">
-          <img src="{{assetPath}}/img/main-logo-sm.png"
-            alt="{{htmlWebpackPlugin.options.data.words.infographicExplainer}}">
+          <img src="{{assetPath}}/img/main-logo-sm.png" alt="{{htmlWebpackPlugin.options.data.words.infographicExplainer}}">
         </picture>
-        <a href="https://respond.census.gov/acs/#respond" class="secondary-header-nav secondary-header-nav__start usa-button">
-          {{htmlWebpackPlugin.options.data.words.censusQuestionnaire}} →
-        </a>
+        <nav>
+          <a
+            href="{{htmlWebpackPlugin.options.data.linkPath}}"
+            class="secondary-header-nav secondary-header-nav__back usa-button"
+          >
+            ← {{htmlWebpackPlugin.options.data.buttons.back}}
+          </a>
+          <a href="https://respond.census.gov/acs/#respond" class="secondary-header-nav secondary-header-nav__start usa-button">
+            {{htmlWebpackPlugin.options.data.words.censusQuestionnaire}} →
+          </a>
+        </nav>
       </header>
 
       <section class="more-info-facts">
-        <picture class="infographic">
-          {{!-- TODO: replace with final graphic and implement art direction --}}
-          <source>
-          <img src="{{assetPath}}/img/infographic-lg.png" alt="{{htmlWebpackPlugin.options.data.content.infographicExplainer}}">
-        </picture>
+        <img src="{{assetPath}}/img/infographic-box-computer.png" alt="{{htmlWebpackPlugin.options.data.content.infographicExplainer}}">
+        <img src="{{assetPath}}/img/infographic-arrow-down.png" class="infographic-down-arrow" alt="{{htmlWebpackPlugin.options.data.content.infographicExplainer}}">
+        <img src="{{assetPath}}/img/infographic-arrow-right.png" class="infographic-right-arrow" alt="{{htmlWebpackPlugin.options.data.content.infographicExplainer}}">
+        <img src="{{assetPath}}/img/infographic-box-icons.png" alt="{{htmlWebpackPlugin.options.data.content.infographicExplainer}}">
       </section>
 
       <a
