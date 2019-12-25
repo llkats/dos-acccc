@@ -7,15 +7,13 @@ const languageData = require('./data/copy/landing-page-copy.json')
 
 const buildSecondaryPages = (dir, mode, templateName) => {
   return languageData.languages.map((data) => {
+  // return [languageData.languages[0]].map((data) => {
     return parts.page({
       enLang: data.language,
       name: templateName,
       outputDir: `${templateName}/`,
-      data: {
-        ...data,
-        // TODO: move next line into something clever with production config and mapping
-        linkPath: mode === 'production' ? '/dos-acccc' : '' // for correct GitHub Pages linking, supply the repo name
-      }
+      data,
+      linkPath: mode === 'production' ? '/dos-acccc' : '' // for correct GitHub Pages linking, supply the repo name
     })
   })
 }
@@ -42,21 +40,21 @@ module.exports = (env, argv) => {
   const moreInfoDir = './data/more-info'
   const moreInfoPages = buildSecondaryPages(moreInfoDir, argv.mode, 'more-info')
 
+  const config =
+    argv.mode === 'production' ? productionConfig : developmentConfig
+
   const pages = [
     parts.page({
       name: 'index',
-      title: 'landing',
-      assetPath: './public',
       data: {
+        assetPath: './public',
         languageData,
-        linkPath: 'dos-acccc' // for correct GitHub Pages linking, supply the repo name
+        linkPath: config === 'production' ? '/dos-acccc' : '',
+        title: 'Welcome to Alameda County Census 2020'
       }
     }),
     ...moreInfoPages
   ]
-
-  const config =
-    argv.mode === 'production' ? productionConfig : developmentConfig
 
   return pages.map(page =>
     merge(commonConfig, config, page, { mode: argv.mode })

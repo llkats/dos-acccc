@@ -69,8 +69,6 @@ async function main () {
   csv({ flatKeys: true })
     .fromFile(filename)
     .then((data) => {
-      // writeFile(outputName, convertJsonToReadableJson(data))
-      // writeFile(outputName, convertJsonToReadableJson(data))
       writeFile(outputName, convertJsonToReadableJson(data))
     })
 }

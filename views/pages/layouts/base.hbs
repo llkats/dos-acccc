@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <title>
-      {{#if title}}
-        {{title}}
+      {{#if htmlWebpackPlugin.options.data.title}}
+        {{htmlWebpackPlugin.options.data.title}}
       {{else}}
         title isn't coming through someone should fix this
       {{/if}}
@@ -12,8 +12,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="{{assetPath}}/styles/uswds.css" type="text/css">
-    <link rel="stylesheet" href="{{assetPath}}/styles/custom.css" type="text/css">
+    <link rel="stylesheet" href="{{htmlWebpackPlugin.options.data.assetPath}}/styles/uswds.css" type="text/css">
+    <link rel="stylesheet" href="{{htmlWebpackPlugin.options.data.assetPath}}/styles/custom.css" type="text/css">
   </head>
   <body>
     {{data}}

@@ -1,12 +1,20 @@
-{{#> layouts/base title="More info" assetPath="./../public"}}
+{{#> layouts/base}}
   {{#*inline "body-content"}}
     <main class="more-info-main">
       <header class="secondary-header">
         <picture class="secondary-logo-container">
-          <source srcset="{{assetPath}}/img/main-logo-sm-2x.png"
-            media="(max-width:600px) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)">
-          <source srcset="{{assetPath}}/img/main-logo-sm.png" media="(max-width:600px)">
-          <img src="{{assetPath}}/img/main-logo-sm.png" alt="{{htmlWebpackPlugin.options.data.words.infographicExplainer}}">
+          <source
+            srcset="{{htmlWebpackPlugin.options.data.assetPath}}/img/main-logo-sm-2x.png"
+            media="(max-width:600px) and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)"
+          >
+          <source
+            srcset="{{htmlWebpackPlugin.options.data.assetPath}}/img/main-logo-sm.png"
+            media="(max-width:600px)"
+          >
+          <img
+            src="{{htmlWebpackPlugin.options.data.assetPath}}/img/main-logo-sm.png"
+            alt="Alameda County {{htmlWebpackPlugin.options.data.words.census2020}}"
+          >
         </picture>
         <nav>
           <a
@@ -15,17 +23,33 @@
           >
             ← {{htmlWebpackPlugin.options.data.buttons.back}}
           </a>
-          <a href="https://respond.census.gov/acs/#respond" class="secondary-header-nav secondary-header-nav__start usa-button">
+          <a
+            href="https://respond.census.gov/acs/#respond"
+            class="secondary-header-nav secondary-header-nav__start usa-button"
+          >
             {{htmlWebpackPlugin.options.data.words.censusQuestionnaire}} →
           </a>
         </nav>
       </header>
 
       <section class="more-info-facts">
-        <img src="{{assetPath}}/img/infographic-box-computer.png" alt="{{htmlWebpackPlugin.options.data.content.infographicExplainer}}">
-        <img src="{{assetPath}}/img/infographic-arrow-down.png" class="infographic-down-arrow" alt="{{htmlWebpackPlugin.options.data.content.infographicExplainer}}">
-        <img src="{{assetPath}}/img/infographic-arrow-right.png" class="infographic-right-arrow" alt="{{htmlWebpackPlugin.options.data.content.infographicExplainer}}">
-        <img src="{{assetPath}}/img/infographic-box-icons.png" alt="{{htmlWebpackPlugin.options.data.content.infographicExplainer}}">
+        {{!-- TODO: probably just hide all of these elements with ARIA and add a hidden text description --}}
+        <img
+          src="{{htmlWebpackPlugin.options.data.assetPath}}/img/infographic-box-computer.png"
+          alt="{{htmlWebpackPlugin.options.data.content.infographicExplainer}}"
+        >
+        <img
+          src="{{htmlWebpackPlugin.options.data.assetPath}}/img/infographic-arrow-down.png"
+          class="infographic-down-arrow" alt="{{htmlWebpackPlugin.options.data.content.infographicExplainer}}"
+        >
+        <img
+          src="{{htmlWebpackPlugin.options.data.assetPath}}/img/infographic-arrow-right.png"
+          class="infographic-right-arrow" alt="{{htmlWebpackPlugin.options.data.content.infographicExplainer}}"
+        >
+        <img
+          src="{{htmlWebpackPlugin.options.data.assetPath}}/img/infographic-box-icons.png"
+          alt="{{htmlWebpackPlugin.options.data.content.infographicExplainer}}"
+        >
       </section>
 
       <a

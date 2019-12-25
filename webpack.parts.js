@@ -17,33 +17,33 @@ exports.page = ({
   enLang,
   name = '',
   outputDir = '',
-  assetPath = './public/',
+  assetPath = '../public',
   linkPath = '',
-  title = ''
-} = {}) => {
-  // console.log(data, '*** data parts')
-  return {
-    module: {
-      rules: [
-        {
-          test: /\.hbs$/,
-          loader: 'handlebars-loader'
-        }
-      ]
-    },
-    plugins: [
-      new webpack.LoaderOptionsPlugin({
-        options: {
-          handlebarsLoader: {}
-        }
-      }),
-      new HtmlWebpackPlugin({
-        filename: `${outputDir}${enLang || name}.html`,
-        template: `views/pages/${name}.hbs`,
-        title,
-        assetPath,
-        data
-      })
+  title = 'Welcome to Alameda County Census 2020'
+} = {}) => ({
+  module: {
+    rules: [
+      {
+        test: /\.hbs$/,
+        loader: 'handlebars-loader'
+      }
     ]
-  }
-}
+  },
+  plugins: [
+    new webpack.LoaderOptionsPlugin({
+      options: {
+        handlebarsLoader: {}
+      }
+    }),
+    new HtmlWebpackPlugin({
+      filename: `${outputDir}${enLang || name}.html`,
+      template: `views/pages/${name}.hbs`,
+      data: {
+        assetPath,
+        linkPath,
+        title,
+        ...data
+      }
+    })
+  ]
+})
