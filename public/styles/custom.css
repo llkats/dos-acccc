@@ -106,8 +106,8 @@ h1 {
 /* more-info.html */
 .secondary-logo-container {
   display: block;
+  margin: 0 auto;
   width: 300px;
-  order: 0;
 }
 
 .secondary-header nav {
@@ -141,30 +141,20 @@ h1 {
   width: 100%;
 }
 
-.infographic-down-arrow {
-  height: 176px;
-  width: 108px;
-}
-
 .infographic-right-arrow {
   display: none;
-  height: 104px;
-  width: 176px;
 }
 
 @media only screen and (min-width: 600px) {
   main {
     max-width: 900px;
+    padding: 0 2em;
   }
 
   .secondary-header {
     display: block;
     height: 75px;
     width: 100%;
-  }
-
-  .secondary-logo-container {
-    margin: 0 auto;
   }
 
   .secondary-header-nav {
