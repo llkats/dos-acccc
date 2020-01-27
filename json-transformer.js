@@ -1,12 +1,9 @@
 const fs = require('fs')
 const path = require('path')
 const util = require('util')
-
-const camelcase = require('camelcase')
 const csv = require('csvtojson')
 
 const writeFile = util.promisify(fs.writeFile)
-const parensRegex = /\(|\)/g
 
 const convertJsonToReadableJson = (data) => {
   if (!data) {
@@ -16,13 +13,14 @@ const convertJsonToReadableJson = (data) => {
 
   let primaryLanguages = []
   let secondaryLanguages = []
-  const languages = data.map((language, i) => {
+  data.forEach((language, i) => {
     const { Language, ...words } = language
 
     const mainPagePlacement = {
       language: words['Language Name (in Native Script)'],
       enName: Language,
-      enLowercase: Language.toLowerCase()
+      enLowercase: Language.toLowerCase(),
+      linkToGoogleDrive: words['Link to Google Drive']
     }
 
     if (words['Page Position'] === 'Top') {
@@ -30,30 +28,11 @@ const convertJsonToReadableJson = (data) => {
     } else {
       secondaryLanguages.push(mainPagePlacement)
     }
-
-    let processedWords = {}
-    Object.keys(words).forEach((key) => {
-      const value = words[key]
-
-      if (key === '2020 Census') {
-        processedWords['census2020'] = value
-      } else if (key.match(parensRegex)) {
-        processedWords[camelcase(key.replace(parensRegex, ''))] = value
-      } else {
-        processedWords[camelcase(key)] = value
-      }
-    })
-
-    return {
-      language: Language,
-      words: processedWords
-    }
   })
 
   return JSON.stringify({
     primaryLanguages,
-    secondaryLanguages,
-    languages
+    secondaryLanguages
   })
 }
 
