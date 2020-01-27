@@ -6,7 +6,7 @@
     "build": "npm run clean && webpack --mode production",
     "build-dev": "webpack --mode development",
     "build-json": "node json-transformer.js data/copy/landing-page-copy.csv data/copy/landing-page-copy.json",
-    "clean": "find ./more-info -type f -name '*.html' -exec rm -r {} + && rm -f ./index.html ./main.js",
+    "clean": "rm -f ./index.html ./main.js",
     "start": "npm run build && webpack-dev-server --mode development"
   },
   "dependencies": {
