@@ -39,13 +39,15 @@ header {
 }
 
 header h1 {
+  flex-wrap: wrap;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   margin: 0;
-  line-height: 1.6;
+  line-height: 1.2;
 }
 
 .main-logo-container {
   display: block;
-  max-width: 250px;
+  max-width: 200px;
 }
 
 .languages {
