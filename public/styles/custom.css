@@ -23,7 +23,7 @@ a.usa-button-big {
 }
 
 main {
-  margin: 3em auto;
+  margin: 2em auto;
   max-width: 90%;
 }
 
@@ -42,15 +42,24 @@ header h1 {
   flex-wrap: wrap;
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   margin: 0;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 header h2 {
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  line-height: 1;
   margin: 0;
+}
+
+.question-circle-icon {
+  background-image: url(../img/question-circle.png);
+  display: block;
+  height: 2rem;
+  width: 2rem;
 }
 
 .main-logo-container {
   display: block;
+  margin-top: 2rem;
   max-width: 200px;
 }
 
@@ -81,10 +90,6 @@ header h2 {
 .secondary-list {
   align-content: flex-start;
   min-height: 900px;
-}
-
-.secondary-languages {
-  margin-top: 5rem;
 }
 
 .secondary-languages .usa-button {
