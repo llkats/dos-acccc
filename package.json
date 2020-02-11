@@ -5,7 +5,7 @@
   "scripts": {
     "build": "npm run clean && webpack --mode production",
     "build-dev": "webpack --mode development",
-    "build-json": "node json-transformer.js data/landing-page-copy.csv data/landing-page-copy.json",
+    "build-json": "node json-transformer.js data/landing-page-better.csv data/landing-page-copy.json",
     "clean": "rm -f ./index.html ./main.js",
     "start": "npm run build && webpack-dev-server --mode development"
   },

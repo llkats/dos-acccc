@@ -3,7 +3,7 @@ const path = require('path')
 const merge = require('webpack-merge')
 
 const parts = require('./webpack.parts')
-const languageData = require('./data/copy/landing-page-copy.json')
+const languageData = require('./data/landing-page-copy.json')
 
 const commonConfig = merge([{
   entry: './public/index.js',
