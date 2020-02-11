@@ -15,6 +15,7 @@ Install instructions WIP.
 1. Clone or fork the repo
 1. `cd dos-acccc`: change directories into the project folder
 1. `npm install`: install dependencies
+1. `cp landing-page-copy-example.json data/landing-page-copy.json`: copy the example json file to the `data/` folder
 1. `npm run start`: start a dev server and open the local site in a browser
 
 There are three types of HTML generated: the main `index.html` page, which links to `more-info` pages in all available languages, which link to `resources` pages in all available languages. Static assets like fonts, images, and CSS stylesheets are located in the `public` folder.
@@ -25,34 +26,27 @@ Pages in `more-info` or `resources` folders are only generated if corresponding 
 ```
 .
 ├── data
-│   ├── more-info
-│   │   └── *.json                // content data for every available language
-│   ├── resources
-│   │    └── *.json               // content data for every available language
-│   ├── primary-languages.json    // lists all primary languages on index.html
-│   └── secondary-languages.json  // lists all primary languages on index.html
-├── more-info
-│   └── *.html                    // AUTO-GENERATED, DO NOT EDIT: more-info pages for every language
 ├── node_modules
 ├── public                        // static assets + CSS and JS
 │    ├── fonts
 │    ├── img
 │    ├── styles                   // edit CSS styles here
 │    └── index.js                 // edit JS here
-├── resources
-│    └── *.html                    // AUTO-GENERATED, DO NOT EDIT: resources pages for every language
 ├── views
 │    ├── layouts
 │    │   └── base.hbs             // base template for all of the pages, doctype, <head>, and <body>
-│    ├── partials
-│    │   └── *.hbs                // list item partials for the index.html lists of buttons
 │    ├── index.hbs
-│    ├── more-info.hbs
-│    └── resources.hbs
 ├── ...                           // gitignore, package*.json, webpack config files
+├── json-transformer.js           // generation script for landing page content
+├── landing-page-copy-example.csv   // example of CSV that json-transformer.js can ingest
+├── landing-page-copy-example.json  // example of JSON output from json-transformer.js
 ├── index.html                    // AUTO-GENERATED, DO NOT EDIT: main entry page
 └── main.js                       // AUTO-GENERATED, DO NOT EDIT: compiled js from public/index.js
 ```
+
+## Home Page Content Generation
+
+Given a CSV file (generated from a Google Sheets) file, `npm run build-json` will create a json file in the `data/` folder.
 
 ## Publish
 
