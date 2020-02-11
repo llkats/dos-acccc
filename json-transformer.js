@@ -13,17 +13,18 @@ const convertJsonToReadableJson = (data) => {
 
   let primaryLanguages = []
   let secondaryLanguages = []
-  data.forEach((language, i) => {
-    const { Language, ...words } = language
+  data.forEach((row, i) => {
+    const enLanguage = row.enLanguage || row['Language']
+    const pagePosition = row.pagePosition || row['Page Position']
 
     const mainPagePlacement = {
-      language: words['Language Name (in Native Script)'],
-      enName: Language,
-      enLowercase: Language.toLowerCase(),
-      linkToGoogleDrive: words['Link to Google Drive']
+      language: row.languageName || row['Language Name (in Native Script)'],
+      enName: enLanguage,
+      enLowercase: enLanguage.toLowerCase(),
+      linkToGoogleDrive: row.link || row['Link to Google Drive']
     }
 
-    if (words['Page Position'] === 'Top') {
+    if (pagePosition && (pagePosition.toLowerCase() === 'top')) {
       primaryLanguages.push(mainPagePlacement)
     } else {
       secondaryLanguages.push(mainPagePlacement)
