@@ -10,17 +10,13 @@ This landing page is intended to be a portal for the 2020 Census administered by
 
 ## Development
 
-Install instructions WIP.
-
 1. Clone or fork the repo
 1. `cd dos-acccc`: change directories into the project folder
 1. `npm install`: install dependencies
 1. `cp landing-page-copy-example.json data/landing-page-copy.json`: copy the example json file to the `data/` folder
 1. `npm run start`: start a dev server and open the local site in a browser
 
-There are three types of HTML generated: the main `index.html` page, which links to `more-info` pages in all available languages, which link to `resources` pages in all available languages. Static assets like fonts, images, and CSS stylesheets are located in the `public` folder.
-
-Pages in `more-info` or `resources` folders are only generated if corresponding well-formed config files are present in the `data` folder. There are hella broken links throughout at the moment, and secondary language buttons don't even work at all right now.
+The main `index.html` page links to resources in all languages supplied by the `data/landing-page-copy.json` file. For Alameda County, we are linking to Google Drive folders. Static assets like fonts, images, and CSS stylesheets are located in the `public` folder.
 
 ### Directory Structure
 ```
@@ -44,10 +40,6 @@ Pages in `more-info` or `resources` folders are only generated if corresponding 
 └── main.js                       // AUTO-GENERATED, DO NOT EDIT: compiled js from public/index.js
 ```
 
-## Home Page Content Generation
-
-Given a CSV file (generated from a Google Sheets) file, `npm run build-json` will create a json file in the `data/` folder.
-
 ## Publish
 
 The page is published as a static GitHub page at https://llkats.github.io/dos-acccc/. It will publish automatically on a merge to master.
@@ -63,17 +55,26 @@ TBD, but roughly:
 
 ### Generating Landing Page Copy
 
-Copy is provided in a Google Sheets document (ask @llkats for the link if you need access).
+## Home Page Content Generation
 
-1. Export the latest document as a CSV and save it as `data/copy/landing-page-copy.csv`.
+Copy is provided in a Google Sheets document (ask @llkats for the link if you need access). If you want to create your own spreadsheet, make sure to include the following columns:
+```
+languageName  - language name in its native characters, eg., ελληνικός
+enLanguage    - language name in English
+pagePosition  - "top" or "bottom"
+link          - the link to which you want the button to navigate
+```
+
+1. Export the latest document as a CSV and save it as `data/landing-page-copy.csv`.
 2. Transform the CSV into a JSON file with the following json-transformer script.
 
 ```
 npm run build-json
 ```
 
+Otherwise, you can edit the `landing-page-copy.json` file by hand to supply the content you need.
+
 ### Dependencies
-- [ExpressJS](https://expressjs.com/)
 - [Handlebars](http://handlebarsjs.com/)
 - [USDWS Design System](https://designsystem.digital.gov)
 - [List.js](https://listjs.com)
