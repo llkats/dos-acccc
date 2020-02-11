@@ -1,0 +1,438 @@
+{
+  "primaryLanguages": [
+    {
+      "language": "العربية",
+      "enName": "Arabic",
+      "enLowercase": "arabic",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "中文(简体)",
+      "enName": "Chinese (Simplified)",
+      "enLowercase": "chinese (simplified)",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "English",
+      "enName": "English",
+      "enLowercase": "english",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Français",
+      "enName": "French",
+      "enLowercase": "french",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Kreyòl Ayisyen",
+      "enName": "Hatian Creole",
+      "enLowercase": "hatian creole",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "日本語",
+      "enName": "Japanese",
+      "enLowercase": "japanese",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "한국어",
+      "enName": "Korean",
+      "enLowercase": "korean",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Język Polski",
+      "enName": "Polish",
+      "enLowercase": "polish",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Português",
+      "enName": "Portuguese",
+      "enLowercase": "portuguese",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Русский",
+      "enName": "Russian",
+      "enLowercase": "russian",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Español",
+      "enName": "Spanish",
+      "enLowercase": "spanish",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Wikang Tagalog",
+      "enName": "Tagalog",
+      "enLowercase": "tagalog",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Tiếng Việt",
+      "enName": "Vietnamese",
+      "enLowercase": "vietnamese",
+      "linkToGoogleDrive": ""
+    }
+  ],
+  "secondaryLanguages": [
+    {
+      "language": "Shqip",
+      "enName": "Albanian",
+      "enLowercase": "albanian",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "American Sign Langauge",
+      "enName": "American Sign Langauge",
+      "enLowercase": "american sign langauge",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "አማርኛ",
+      "enName": "Amharic",
+      "enLowercase": "amharic",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Հայերեն",
+      "enName": "Armenian",
+      "enLowercase": "armenian",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "বাংলা",
+      "enName": "Bengali",
+      "enLowercase": "bengali",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "རྫོང་ཁ་",
+      "enName": "Bhutanese",
+      "enLowercase": "bhutanese",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Bosanski",
+      "enName": "Bosnian",
+      "enLowercase": "bosnian",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "български език",
+      "enName": "Bulgarian",
+      "enLowercase": "bulgarian",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "မြန်မာစာ",
+      "enName": "Burmese",
+      "enLowercase": "burmese",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "中文(繁體)",
+      "enName": "Chinese (Traditional)",
+      "enLowercase": "chinese (traditional)",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Hrvatski",
+      "enName": "Croatian",
+      "enLowercase": "croatian",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Čeština",
+      "enName": "Czech",
+      "enLowercase": "czech",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Thuɔŋjäŋ",
+      "enName": "Dinka",
+      "enLowercase": "dinka",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Nederlands",
+      "enName": "Dutch",
+      "enLowercase": "dutch",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "فارسی",
+      "enName": "Farsi / Dari",
+      "enLowercase": "farsi / dari",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Deutsch",
+      "enName": "German",
+      "enLowercase": "german",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "ελληνικός",
+      "enName": "Greek",
+      "enLowercase": "greek",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "ગુજરાતી",
+      "enName": "Gujarati",
+      "enLowercase": "gujarati",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "עברית",
+      "enName": "Hebrew",
+      "enLowercase": "hebrew",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "हिन्दी",
+      "enName": "Hindi",
+      "enLowercase": "hindi",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Hmoob",
+      "enName": "Hmong",
+      "enLowercase": "hmong",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Magyar Nyelv",
+      "enName": "Hungarian",
+      "enLowercase": "hungarian",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Asụsụ Igbo",
+      "enName": "Igbo",
+      "enLowercase": "igbo",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Pagsasao nga Ilokano",
+      "enName": "llocano",
+      "enLowercase": "llocano",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Bahasa Indonesia",
+      "enName": "Indonesian",
+      "enLowercase": "indonesian",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Italiano",
+      "enName": "Italian",
+      "enLowercase": "italian",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "ಕನ್ನಡ",
+      "enName": "Kannada",
+      "enLowercase": "kannada",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "ကညီကျိာ်,",
+      "enName": "Karen",
+      "enLowercase": "karen",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "ភាសាខ្មែរ",
+      "enName": "Khmer",
+      "enLowercase": "khmer",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "ພາສາລາວ",
+      "enName": "Lao",
+      "enLowercase": "lao",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Lietuvių Kalba",
+      "enName": "Lithuanian",
+      "enLowercase": "lithuanian",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "മലയാളം",
+      "enName": "Malayalam",
+      "enLowercase": "malayalam",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Qyol mam",
+      "enName": "Mam",
+      "enLowercase": "mam",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "मराठी",
+      "enName": "Marathi",
+      "enLowercase": "marathi",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "lu mienh/勉語 / ภาษาอิวเมี่ยน",
+      "enName": "Mien",
+      "enLowercase": "mien",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Монгол",
+      "enName": "Mongolian",
+      "enLowercase": "mongolian",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Diné Bizaad",
+      "enName": "Navajo",
+      "enLowercase": "navajo",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "नेपाली",
+      "enName": "Nepali",
+      "enLowercase": "nepali",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "پښتو",
+      "enName": "Pashto",
+      "enLowercase": "pashto",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "ਪੰਜਾਬੀ",
+      "enName": "Punjabi",
+      "enLowercase": "punjabi",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Limba Română",
+      "enName": "Romanian",
+      "enLowercase": "romanian",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Samoa",
+      "enName": "Samoan",
+      "enLowercase": "samoan",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Cpпски",
+      "enName": "Serbian",
+      "enLowercase": "serbian",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "සිංහල",
+      "enName": "Sinhala",
+      "enLowercase": "sinhala",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Slovenčina",
+      "enName": "Slovak",
+      "enLowercase": "slovak",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Af Soomaali",
+      "enName": "Somali",
+      "enLowercase": "somali",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Kiswahili",
+      "enName": "Swahili",
+      "enLowercase": "swahili",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "தமிழ்",
+      "enName": "Tamil",
+      "enLowercase": "tamil",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "తెలుగు",
+      "enName": "Telugu",
+      "enLowercase": "telugu",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "ภาษาไทย",
+      "enName": "Thai",
+      "enLowercase": "thai",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "བོད་སྐད",
+      "enName": "Tibetan",
+      "enLowercase": "tibetan",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "ትግርኛ",
+      "enName": "Tigrinya",
+      "enLowercase": "tigrinya",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "lea fakatonga",
+      "enName": "Tongan",
+      "enLowercase": "tongan",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Türkçe",
+      "enName": "Turkish",
+      "enLowercase": "turkish",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Twi",
+      "enName": "Twi",
+      "enLowercase": "twi",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "українська мова",
+      "enName": "Ukrainian",
+      "enLowercase": "ukrainian",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "اردو",
+      "enName": "Urdu",
+      "enLowercase": "urdu",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "ייִדיש",
+      "enName": "Yiddish",
+      "enLowercase": "yiddish",
+      "linkToGoogleDrive": ""
+    },
+    {
+      "language": "Èdè Yorùbá",
+      "enName": "Yoruba",
+      "enLowercase": "yoruba",
+      "linkToGoogleDrive": ""
+    }
+  ]
+}
