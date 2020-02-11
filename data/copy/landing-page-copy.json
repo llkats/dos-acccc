@@ -1,1 +1,438 @@
-{"primaryLanguages":[{"language":"العربية","enName":"Arabic","enLowercase":"arabic","linkToGoogleDrive":"https://drive.google.com/drive/folders/1WZWHo_PHcF5ttFAcysfk8ccB5nmFZn9Q?usp=sharing"},{"language":"中文(简体)","enName":"Chinese (Simplified)","enLowercase":"chinese (simplified)","linkToGoogleDrive":"https://drive.google.com/drive/folders/1eQEX-OFMBQkxcmDxFeJtqdjLb8dsQqZv?usp=sharing"},{"language":"English","enName":"English","enLowercase":"english","linkToGoogleDrive":"https://drive.google.com/open?id=1TzPCGJmya9CH_nDL-OjVVCANMcQEDytC"},{"language":"Français","enName":"French","enLowercase":"french","linkToGoogleDrive":"https://drive.google.com/drive/folders/1AG5y7eVP9yb4zZsa9c8hW1ioAnC9VSUU?usp=sharing"},{"language":"Kreyòl Ayisyen","enName":"Hatian Creole","enLowercase":"hatian creole","linkToGoogleDrive":"https://drive.google.com/drive/folders/1Yua8unMLv2TVKEI_VSGHf-2RDVVOAAWI?usp=sharing"},{"language":"日本語","enName":"Japanese","enLowercase":"japanese","linkToGoogleDrive":"https://drive.google.com/drive/folders/1pvLdTlzZ053cEpr37cJFn-0Q2NDE6aJo?usp=sharing"},{"language":"한국어","enName":"Korean","enLowercase":"korean","linkToGoogleDrive":"https://drive.google.com/drive/folders/1XQg4MueYZE-JESDzeiIv-hcDhhlJ-HOt?usp=sharing"},{"language":"Język Polski","enName":"Polish","enLowercase":"polish","linkToGoogleDrive":"https://drive.google.com/drive/folders/1jsnsx9pmWdijuqltJzHm9Fzic514e9tq?usp=sharing"},{"language":"Português","enName":"Portuguese","enLowercase":"portuguese","linkToGoogleDrive":"https://drive.google.com/drive/folders/1Kk8g-ypsNn6C2fhkiXSsCWea_2bUhb1Z?usp=sharing"},{"language":"Русский","enName":"Russian","enLowercase":"russian","linkToGoogleDrive":"https://drive.google.com/drive/folders/1g8jl0eCPSK5LlZ9-wSAT4-7AivDrEB6l?usp=sharing"},{"language":"Español","enName":"Spanish","enLowercase":"spanish","linkToGoogleDrive":"https://drive.google.com/open?id=1bdBeMAAfpbNWg5n1lcpvxit54F-IUH_j"},{"language":"Wikang Tagalog","enName":"Tagalog","enLowercase":"tagalog","linkToGoogleDrive":"https://drive.google.com/drive/folders/1KNHN453oCVZrGDdEsF8kZMQU6-G4ZLfA?usp=sharing"},{"language":"Tiếng Việt","enName":"Vietnamese","enLowercase":"vietnamese","linkToGoogleDrive":"https://drive.google.com/drive/folders/1uNCYODMtfxKnIsjbTP4s6qbC8ZoAndCe?usp=sharing"}],"secondaryLanguages":[{"language":"Shqip","enName":"Albanian","enLowercase":"albanian","linkToGoogleDrive":"https://drive.google.com/drive/folders/10woNS2hJrET7W_ewFCc3rUPL9xaeGVI0?usp=sharing"},{"language":"American Sign Langauge","enName":"American Sign Langauge","enLowercase":"american sign langauge","linkToGoogleDrive":"https://drive.google.com/drive/folders/1y9MDnB4LGcpIZF7vvXHmK9-Kxr5JEnnw?usp=sharing"},{"language":"አማርኛ","enName":"Amharic","enLowercase":"amharic","linkToGoogleDrive":"https://drive.google.com/drive/folders/1LCUH0s4AwKbx9MQ_6qP8Qgu0scLENhUG?usp=sharing"},{"language":"Հայերեն","enName":"Armenian","enLowercase":"armenian","linkToGoogleDrive":"https://drive.google.com/drive/folders/1_Cm-dTiabb0EBSL9e8WH8GerkdvACFz8?usp=sharing"},{"language":"বাংলা","enName":"Bengali","enLowercase":"bengali","linkToGoogleDrive":"https://drive.google.com/drive/folders/1jW3JoqP0Twju3PnVK0OjdiRPBAww6VV4?usp=sharing"},{"language":"རྫོང་ཁ་","enName":"Bhutanese","enLowercase":"bhutanese","linkToGoogleDrive":"https://drive.google.com/open?id=1Gh_bsmKM3oNSrh90hvP2DIWWWGI7mwey"},{"language":"Bosanski","enName":"Bosnian","enLowercase":"bosnian","linkToGoogleDrive":"https://drive.google.com/drive/folders/1-sY5BkALkU_w8xrPEXSYkJjlCDHsgK_C?usp=sharing"},{"language":"български език","enName":"Bulgarian","enLowercase":"bulgarian","linkToGoogleDrive":"https://drive.google.com/drive/folders/1nMbKfPbDc4RDuiXmEVcatNijrDwu8-DH?usp=sharing"},{"language":"မြန်မာစာ","enName":"Burmese","enLowercase":"burmese","linkToGoogleDrive":"https://drive.google.com/drive/folders/1Ij-SQz7ukxWhsAHW31liDICPlzRLIWTq?usp=sharing"},{"language":"中文(繁體)","enName":"Chinese (Traditional)","enLowercase":"chinese (traditional)","linkToGoogleDrive":"https://drive.google.com/drive/folders/1lDeDPkg0vQsESXYEM-HRabEu5_npDpWO?usp=sharing"},{"language":"Hrvatski","enName":"Croatian","enLowercase":"croatian","linkToGoogleDrive":"https://drive.google.com/drive/folders/12qAFmZIhpLt2d_D6wCmsKO1fvXIzPFxW?usp=sharing"},{"language":"Čeština","enName":"Czech","enLowercase":"czech","linkToGoogleDrive":"https://drive.google.com/drive/folders/1_RhLia8qBF3VnkCukznp4FM2TXq8zb-L?usp=sharing"},{"language":"Thuɔŋjäŋ","enName":"Dinka","enLowercase":"dinka","linkToGoogleDrive":"https://drive.google.com/drive/folders/1fBtvp2EmOniBXr2N9C3WNyW_27nwV_oR?usp=sharing"},{"language":"Nederlands","enName":"Dutch","enLowercase":"dutch","linkToGoogleDrive":"https://drive.google.com/drive/folders/1BXIqT84J3LpXHcPY3ml6c2peB7N7Q_OG?usp=sharing"},{"language":"فارسی","enName":"Farsi / Dari","enLowercase":"farsi / dari","linkToGoogleDrive":"https://drive.google.com/drive/folders/1uuSV7z3fdJVsTrmuW3iHwqGOF7tKltY4?usp=sharing"},{"language":"Deutsch","enName":"German","enLowercase":"german","linkToGoogleDrive":"https://drive.google.com/drive/folders/1Smjk02y8OsPHecfH1nafUFTYLhc5hu6D?usp=sharing"},{"language":"ελληνικός","enName":"Greek","enLowercase":"greek","linkToGoogleDrive":"https://drive.google.com/drive/folders/1wD7-kqDEr22Z1SOqH6T37oo68Ba49E9-?usp=sharing"},{"language":"ગુજરાતી","enName":"Gujarati","enLowercase":"gujarati","linkToGoogleDrive":"https://drive.google.com/drive/folders/1PstSWnJtRitlJ0ipzXiOvdLUObRH_wVk?usp=sharing"},{"language":"עברית","enName":"Hebrew","enLowercase":"hebrew","linkToGoogleDrive":"https://drive.google.com/drive/folders/1gUce2y8Ph1HqxrF4sl2JGCbMbzEUxDxe?usp=sharing"},{"language":"हिन्दी","enName":"Hindi","enLowercase":"hindi","linkToGoogleDrive":"https://drive.google.com/drive/folders/1HOGsB78isvuvfIE_yw34NDK2Ei8iaoIq?usp=sharing"},{"language":"Hmoob","enName":"Hmong","enLowercase":"hmong","linkToGoogleDrive":"https://drive.google.com/drive/folders/1AXJ_9Dgpl2U6TRNdvDPMFjFZZsnlSpDN?usp=sharing"},{"language":"Magyar Nyelv","enName":"Hungarian","enLowercase":"hungarian","linkToGoogleDrive":"https://drive.google.com/drive/folders/1h8qoCjTYktt5i-4a7hJQvGRtDAFUPETT?usp=sharing"},{"language":"Asụsụ Igbo","enName":"Igbo","enLowercase":"igbo","linkToGoogleDrive":"https://drive.google.com/drive/folders/1cDNQ7zWP8w4A10E0JLs1RduicBPpIJ6l?usp=sharing"},{"language":"Pagsasao nga Ilokano","enName":"llocano","enLowercase":"llocano","linkToGoogleDrive":"https://drive.google.com/drive/folders/14skneGanfd9Zmo5TXEi2IRlmgSdsRgSh?usp=sharing"},{"language":"Bahasa Indonesia","enName":"Indonesian","enLowercase":"indonesian","linkToGoogleDrive":"https://drive.google.com/drive/folders/1kIyAaW1M_vfix8xxO1VnbX1b5ePR6jaJ?usp=sharing"},{"language":"Italiano","enName":"Italian","enLowercase":"italian","linkToGoogleDrive":"https://drive.google.com/drive/folders/1a5dPITIoDDMowRhEcMw6qE46aRcX1AUd?usp=sharing"},{"language":"ಕನ್ನಡ","enName":"Kannada","enLowercase":"kannada","linkToGoogleDrive":"https://drive.google.com/drive/folders/1Oik2Cc4ILW60febOCdJ0qyzvtKaYDC0t?usp=sharing"},{"language":"ကညီကျိာ်,","enName":"Karen","enLowercase":"karen","linkToGoogleDrive":"https://drive.google.com/drive/folders/1pQN0zs1Of92IZLqPhJyh0pYedrVeD5T3?usp=sharing"},{"language":"ភាសាខ្មែរ","enName":"Khmer","enLowercase":"khmer","linkToGoogleDrive":"https://drive.google.com/drive/folders/13hbw2re0uQtBu-BUpRfJqsWS_1jcw-LV?usp=sharing"},{"language":"ພາສາລາວ","enName":"Lao","enLowercase":"lao","linkToGoogleDrive":"https://drive.google.com/drive/folders/1tS3eCBHcQY5kwzp3A9GYFEnCOaCvPSzd?usp=sharing"},{"language":"Lietuvių Kalba","enName":"Lithuanian","enLowercase":"lithuanian","linkToGoogleDrive":"https://drive.google.com/drive/folders/1mjFNnxWcV3N2kNphnVtgEy66iXTzrVLp?usp=sharing"},{"language":"മലയാളം","enName":"Malayalam","enLowercase":"malayalam","linkToGoogleDrive":"https://drive.google.com/drive/folders/1sOf7pGZythQ-cwroVx47cTaCB-bAhJH1?usp=sharing"},{"language":"Qyol mam","enName":"Mam","enLowercase":"mam","linkToGoogleDrive":"https://drive.google.com/drive/folders/1sFAp-AW67GQrJvXyhynKvnpu4J0Yy0ZD?usp=sharing"},{"language":"मराठी","enName":"Marathi","enLowercase":"marathi","linkToGoogleDrive":"https://drive.google.com/drive/folders/1L2T51JZX141GojIRK2CjinaH59q1H6Wg?usp=sharing"},{"language":"lu mienh/勉語 / ภาษาอิวเมี่ยน","enName":"Mien","enLowercase":"mien","linkToGoogleDrive":"https://drive.google.com/drive/folders/1zdHrbwS6jTCvDMzx6nra7OmMQw78fap_?usp=sharing"},{"language":"Монгол","enName":"Mongolian","enLowercase":"mongolian","linkToGoogleDrive":"https://drive.google.com/drive/folders/1o-GVUlA4BhSGxHUrYHEo7MR-Bkd2qeUa?usp=sharing"},{"language":"Diné Bizaad","enName":"Navajo","enLowercase":"navajo","linkToGoogleDrive":"https://drive.google.com/drive/folders/1vu3HjKbirRblcBRyTYx_j8U4neM-0jcp?usp=sharing"},{"language":"नेपाली","enName":"Nepali","enLowercase":"nepali","linkToGoogleDrive":"https://drive.google.com/drive/folders/1EvoFiBIyzcyHVmvOdMNB2Dk_TA5KDU7z?usp=sharing"},{"language":"پښتو","enName":"Pashto","enLowercase":"pashto","linkToGoogleDrive":"https://drive.google.com/drive/folders/1KrIRCdQv5gT47XUD2wmawJZFMWamMJdP?usp=sharing"},{"language":"ਪੰਜਾਬੀ","enName":"Punjabi","enLowercase":"punjabi","linkToGoogleDrive":"https://drive.google.com/drive/folders/1j34BJbWx1LSj6pXcmzXzA-QcfQ0s5hP2?usp=sharing"},{"language":"Limba Română","enName":"Romanian","enLowercase":"romanian","linkToGoogleDrive":"https://drive.google.com/drive/folders/19KbD89xy3lwW6qY-Tn4grSA-JdKMWWro?usp=sharing"},{"language":"Samoa","enName":"Samoan","enLowercase":"samoan","linkToGoogleDrive":"https://drive.google.com/drive/folders/1kLUXnRH0DCA-FN9auBe0sSZRs-CMLJo_?usp=sharing"},{"language":"Cpпски","enName":"Serbian","enLowercase":"serbian","linkToGoogleDrive":"https://drive.google.com/drive/folders/1qrwpLGrJp0MwfXUOrze--4w5EFHhr7jE?usp=sharing"},{"language":"සිංහල","enName":"Sinhala","enLowercase":"sinhala","linkToGoogleDrive":"https://drive.google.com/drive/folders/1jCC_nuUluQpCCm0e2EQmYY04i-dHE7Fl?usp=sharing"},{"language":"Slovenčina","enName":"Slovak","enLowercase":"slovak","linkToGoogleDrive":"https://drive.google.com/drive/folders/1C0zJu0SoH6TN5jKso_y7USTnxtVLQEg-?usp=sharing"},{"language":"Af Soomaali","enName":"Somali","enLowercase":"somali","linkToGoogleDrive":"https://drive.google.com/drive/folders/1NYn7cbWkD13wGztd4IgtWWY6-lKXL9v0?usp=sharing"},{"language":"Kiswahili","enName":"Swahili","enLowercase":"swahili","linkToGoogleDrive":"https://drive.google.com/drive/folders/15Tr17e3Sbd9lpCbSQ7Br_8SdVnp_5ozP?usp=sharing"},{"language":"தமிழ்","enName":"Tamil","enLowercase":"tamil","linkToGoogleDrive":"https://drive.google.com/drive/folders/1ynsh5-l8-TAHAB_QWeFQO9524BmsQEZb?usp=sharing"},{"language":"తెలుగు","enName":"Telugu","enLowercase":"telugu","linkToGoogleDrive":"https://drive.google.com/drive/folders/1UDnBw1GILvRNpVTyESqo-7BV2Zbaj8UX?usp=sharing"},{"language":"ภาษาไทย","enName":"Thai","enLowercase":"thai","linkToGoogleDrive":"https://drive.google.com/drive/folders/1jjcHlTjrvsfmAgxS4w-lUs-SpVS2Z7bk?usp=sharing"},{"language":"བོད་སྐད","enName":"Tibetan","enLowercase":"tibetan","linkToGoogleDrive":"https://drive.google.com/drive/folders/13fQQyRcWfwo3HKbFNvZvqFtoTHpx8473?usp=sharing"},{"language":"ትግርኛ","enName":"Tigrinya","enLowercase":"tigrinya","linkToGoogleDrive":"https://drive.google.com/drive/folders/1B48qkm76glPvz-MMF7v6j_KrmurdF_d7?usp=sharing"},{"language":"lea fakatonga","enName":"Tongan","enLowercase":"tongan","linkToGoogleDrive":"https://drive.google.com/drive/folders/1SyJfy-n9y3_MpmQzYxq-Prja6b3Pyh8B?usp=sharing"},{"language":"Türkçe","enName":"Turkish","enLowercase":"turkish","linkToGoogleDrive":"https://drive.google.com/drive/folders/1AhgKAJpqhaYskZNnzzPaESPQHVwLkvob?usp=sharing"},{"language":"Twi","enName":"Twi","enLowercase":"twi","linkToGoogleDrive":"https://drive.google.com/drive/folders/1jN-bkvBGZ0fQrT4prnZy4OfpFdbwcUJC?usp=sharing"},{"language":"українська мова","enName":"Ukrainian","enLowercase":"ukrainian","linkToGoogleDrive":"https://drive.google.com/drive/folders/14Cs5QcLuBRh52G-rVuirwLy5OSyN4cWj?usp=sharing"},{"language":"اردو","enName":"Urdu","enLowercase":"urdu","linkToGoogleDrive":"https://drive.google.com/drive/folders/1rALfNk7VqYRZqOKGtQm-W3znVjKxe-05?usp=sharing"},{"language":"ייִדיש","enName":"Yiddish","enLowercase":"yiddish","linkToGoogleDrive":"https://drive.google.com/drive/folders/1ZkwUTMN6BVh5F5NAeaqDtk19z6ZtAuuR?usp=sharing"},{"language":"Èdè Yorùbá","enName":"Yoruba","enLowercase":"yoruba","linkToGoogleDrive":"https://drive.google.com/drive/folders/1XyQvW3eDO54mTAU4LgjcaO_4JnKX2brH?usp=sharing"}]}
+{
+  "primaryLanguages": [
+    {
+      "language": "العربية",
+      "enName": "Arabic",
+      "enLowercase": "arabic",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1WZWHo_PHcF5ttFAcysfk8ccB5nmFZn9Q?usp=sharing"
+    },
+    {
+      "language": "中文(简体)",
+      "enName": "Chinese (Simplified)",
+      "enLowercase": "chinese (simplified)",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1eQEX-OFMBQkxcmDxFeJtqdjLb8dsQqZv?usp=sharing"
+    },
+    {
+      "language": "English",
+      "enName": "English",
+      "enLowercase": "english",
+      "linkToGoogleDrive": "https://drive.google.com/open?id=1TzPCGJmya9CH_nDL-OjVVCANMcQEDytC"
+    },
+    {
+      "language": "Français",
+      "enName": "French",
+      "enLowercase": "french",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1AG5y7eVP9yb4zZsa9c8hW1ioAnC9VSUU?usp=sharing"
+    },
+    {
+      "language": "Kreyòl Ayisyen",
+      "enName": "Hatian Creole",
+      "enLowercase": "hatian creole",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1Yua8unMLv2TVKEI_VSGHf-2RDVVOAAWI?usp=sharing"
+    },
+    {
+      "language": "日本語",
+      "enName": "Japanese",
+      "enLowercase": "japanese",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1pvLdTlzZ053cEpr37cJFn-0Q2NDE6aJo?usp=sharing"
+    },
+    {
+      "language": "한국어",
+      "enName": "Korean",
+      "enLowercase": "korean",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1XQg4MueYZE-JESDzeiIv-hcDhhlJ-HOt?usp=sharing"
+    },
+    {
+      "language": "Język Polski",
+      "enName": "Polish",
+      "enLowercase": "polish",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1jsnsx9pmWdijuqltJzHm9Fzic514e9tq?usp=sharing"
+    },
+    {
+      "language": "Português",
+      "enName": "Portuguese",
+      "enLowercase": "portuguese",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1Kk8g-ypsNn6C2fhkiXSsCWea_2bUhb1Z?usp=sharing"
+    },
+    {
+      "language": "Русский",
+      "enName": "Russian",
+      "enLowercase": "russian",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1g8jl0eCPSK5LlZ9-wSAT4-7AivDrEB6l?usp=sharing"
+    },
+    {
+      "language": "Español",
+      "enName": "Spanish",
+      "enLowercase": "spanish",
+      "linkToGoogleDrive": "https://drive.google.com/open?id=1bdBeMAAfpbNWg5n1lcpvxit54F-IUH_j"
+    },
+    {
+      "language": "Wikang Tagalog",
+      "enName": "Tagalog",
+      "enLowercase": "tagalog",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1KNHN453oCVZrGDdEsF8kZMQU6-G4ZLfA?usp=sharing"
+    },
+    {
+      "language": "Tiếng Việt",
+      "enName": "Vietnamese",
+      "enLowercase": "vietnamese",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1uNCYODMtfxKnIsjbTP4s6qbC8ZoAndCe?usp=sharing"
+    }
+  ],
+  "secondaryLanguages": [
+    {
+      "language": "Shqip",
+      "enName": "Albanian",
+      "enLowercase": "albanian",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/10woNS2hJrET7W_ewFCc3rUPL9xaeGVI0?usp=sharing"
+    },
+    {
+      "language": "American Sign Langauge",
+      "enName": "American Sign Langauge",
+      "enLowercase": "american sign langauge",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1y9MDnB4LGcpIZF7vvXHmK9-Kxr5JEnnw?usp=sharing"
+    },
+    {
+      "language": "አማርኛ",
+      "enName": "Amharic",
+      "enLowercase": "amharic",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1LCUH0s4AwKbx9MQ_6qP8Qgu0scLENhUG?usp=sharing"
+    },
+    {
+      "language": "Հայերեն",
+      "enName": "Armenian",
+      "enLowercase": "armenian",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1_Cm-dTiabb0EBSL9e8WH8GerkdvACFz8?usp=sharing"
+    },
+    {
+      "language": "বাংলা",
+      "enName": "Bengali",
+      "enLowercase": "bengali",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1jW3JoqP0Twju3PnVK0OjdiRPBAww6VV4?usp=sharing"
+    },
+    {
+      "language": "རྫོང་ཁ་",
+      "enName": "Bhutanese",
+      "enLowercase": "bhutanese",
+      "linkToGoogleDrive": "https://drive.google.com/open?id=1Gh_bsmKM3oNSrh90hvP2DIWWWGI7mwey"
+    },
+    {
+      "language": "Bosanski",
+      "enName": "Bosnian",
+      "enLowercase": "bosnian",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1-sY5BkALkU_w8xrPEXSYkJjlCDHsgK_C?usp=sharing"
+    },
+    {
+      "language": "български език",
+      "enName": "Bulgarian",
+      "enLowercase": "bulgarian",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1nMbKfPbDc4RDuiXmEVcatNijrDwu8-DH?usp=sharing"
+    },
+    {
+      "language": "မြန်မာစာ",
+      "enName": "Burmese",
+      "enLowercase": "burmese",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1Ij-SQz7ukxWhsAHW31liDICPlzRLIWTq?usp=sharing"
+    },
+    {
+      "language": "中文(繁體)",
+      "enName": "Chinese (Traditional)",
+      "enLowercase": "chinese (traditional)",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1lDeDPkg0vQsESXYEM-HRabEu5_npDpWO?usp=sharing"
+    },
+    {
+      "language": "Hrvatski",
+      "enName": "Croatian",
+      "enLowercase": "croatian",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/12qAFmZIhpLt2d_D6wCmsKO1fvXIzPFxW?usp=sharing"
+    },
+    {
+      "language": "Čeština",
+      "enName": "Czech",
+      "enLowercase": "czech",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1_RhLia8qBF3VnkCukznp4FM2TXq8zb-L?usp=sharing"
+    },
+    {
+      "language": "Thuɔŋjäŋ",
+      "enName": "Dinka",
+      "enLowercase": "dinka",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1fBtvp2EmOniBXr2N9C3WNyW_27nwV_oR?usp=sharing"
+    },
+    {
+      "language": "Nederlands",
+      "enName": "Dutch",
+      "enLowercase": "dutch",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1BXIqT84J3LpXHcPY3ml6c2peB7N7Q_OG?usp=sharing"
+    },
+    {
+      "language": "فارسی",
+      "enName": "Farsi / Dari",
+      "enLowercase": "farsi / dari",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1uuSV7z3fdJVsTrmuW3iHwqGOF7tKltY4?usp=sharing"
+    },
+    {
+      "language": "Deutsch",
+      "enName": "German",
+      "enLowercase": "german",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1Smjk02y8OsPHecfH1nafUFTYLhc5hu6D?usp=sharing"
+    },
+    {
+      "language": "ελληνικός",
+      "enName": "Greek",
+      "enLowercase": "greek",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1wD7-kqDEr22Z1SOqH6T37oo68Ba49E9-?usp=sharing"
+    },
+    {
+      "language": "ગુજરાતી",
+      "enName": "Gujarati",
+      "enLowercase": "gujarati",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1PstSWnJtRitlJ0ipzXiOvdLUObRH_wVk?usp=sharing"
+    },
+    {
+      "language": "עברית",
+      "enName": "Hebrew",
+      "enLowercase": "hebrew",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1gUce2y8Ph1HqxrF4sl2JGCbMbzEUxDxe?usp=sharing"
+    },
+    {
+      "language": "हिन्दी",
+      "enName": "Hindi",
+      "enLowercase": "hindi",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1HOGsB78isvuvfIE_yw34NDK2Ei8iaoIq?usp=sharing"
+    },
+    {
+      "language": "Hmoob",
+      "enName": "Hmong",
+      "enLowercase": "hmong",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1AXJ_9Dgpl2U6TRNdvDPMFjFZZsnlSpDN?usp=sharing"
+    },
+    {
+      "language": "Magyar Nyelv",
+      "enName": "Hungarian",
+      "enLowercase": "hungarian",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1h8qoCjTYktt5i-4a7hJQvGRtDAFUPETT?usp=sharing"
+    },
+    {
+      "language": "Asụsụ Igbo",
+      "enName": "Igbo",
+      "enLowercase": "igbo",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1cDNQ7zWP8w4A10E0JLs1RduicBPpIJ6l?usp=sharing"
+    },
+    {
+      "language": "Pagsasao nga Ilokano",
+      "enName": "llocano",
+      "enLowercase": "llocano",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/14skneGanfd9Zmo5TXEi2IRlmgSdsRgSh?usp=sharing"
+    },
+    {
+      "language": "Bahasa Indonesia",
+      "enName": "Indonesian",
+      "enLowercase": "indonesian",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1kIyAaW1M_vfix8xxO1VnbX1b5ePR6jaJ?usp=sharing"
+    },
+    {
+      "language": "Italiano",
+      "enName": "Italian",
+      "enLowercase": "italian",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1a5dPITIoDDMowRhEcMw6qE46aRcX1AUd?usp=sharing"
+    },
+    {
+      "language": "ಕನ್ನಡ",
+      "enName": "Kannada",
+      "enLowercase": "kannada",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1Oik2Cc4ILW60febOCdJ0qyzvtKaYDC0t?usp=sharing"
+    },
+    {
+      "language": "ကညီကျိာ်,",
+      "enName": "Karen",
+      "enLowercase": "karen",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1pQN0zs1Of92IZLqPhJyh0pYedrVeD5T3?usp=sharing"
+    },
+    {
+      "language": "ភាសាខ្មែរ",
+      "enName": "Khmer",
+      "enLowercase": "khmer",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/13hbw2re0uQtBu-BUpRfJqsWS_1jcw-LV?usp=sharing"
+    },
+    {
+      "language": "ພາສາລາວ",
+      "enName": "Lao",
+      "enLowercase": "lao",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1tS3eCBHcQY5kwzp3A9GYFEnCOaCvPSzd?usp=sharing"
+    },
+    {
+      "language": "Lietuvių Kalba",
+      "enName": "Lithuanian",
+      "enLowercase": "lithuanian",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1mjFNnxWcV3N2kNphnVtgEy66iXTzrVLp?usp=sharing"
+    },
+    {
+      "language": "മലയാളം",
+      "enName": "Malayalam",
+      "enLowercase": "malayalam",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1sOf7pGZythQ-cwroVx47cTaCB-bAhJH1?usp=sharing"
+    },
+    {
+      "language": "Qyol mam",
+      "enName": "Mam",
+      "enLowercase": "mam",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1sFAp-AW67GQrJvXyhynKvnpu4J0Yy0ZD?usp=sharing"
+    },
+    {
+      "language": "मराठी",
+      "enName": "Marathi",
+      "enLowercase": "marathi",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1L2T51JZX141GojIRK2CjinaH59q1H6Wg?usp=sharing"
+    },
+    {
+      "language": "lu mienh/勉語 / ภาษาอิวเมี่ยน",
+      "enName": "Mien",
+      "enLowercase": "mien",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1zdHrbwS6jTCvDMzx6nra7OmMQw78fap_?usp=sharing"
+    },
+    {
+      "language": "Монгол",
+      "enName": "Mongolian",
+      "enLowercase": "mongolian",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1o-GVUlA4BhSGxHUrYHEo7MR-Bkd2qeUa?usp=sharing"
+    },
+    {
+      "language": "Diné Bizaad",
+      "enName": "Navajo",
+      "enLowercase": "navajo",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1vu3HjKbirRblcBRyTYx_j8U4neM-0jcp?usp=sharing"
+    },
+    {
+      "language": "नेपाली",
+      "enName": "Nepali",
+      "enLowercase": "nepali",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1EvoFiBIyzcyHVmvOdMNB2Dk_TA5KDU7z?usp=sharing"
+    },
+    {
+      "language": "پښتو",
+      "enName": "Pashto",
+      "enLowercase": "pashto",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1KrIRCdQv5gT47XUD2wmawJZFMWamMJdP?usp=sharing"
+    },
+    {
+      "language": "ਪੰਜਾਬੀ",
+      "enName": "Punjabi",
+      "enLowercase": "punjabi",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1j34BJbWx1LSj6pXcmzXzA-QcfQ0s5hP2?usp=sharing"
+    },
+    {
+      "language": "Limba Română",
+      "enName": "Romanian",
+      "enLowercase": "romanian",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/19KbD89xy3lwW6qY-Tn4grSA-JdKMWWro?usp=sharing"
+    },
+    {
+      "language": "Samoa",
+      "enName": "Samoan",
+      "enLowercase": "samoan",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1kLUXnRH0DCA-FN9auBe0sSZRs-CMLJo_?usp=sharing"
+    },
+    {
+      "language": "Cpпски",
+      "enName": "Serbian",
+      "enLowercase": "serbian",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1qrwpLGrJp0MwfXUOrze--4w5EFHhr7jE?usp=sharing"
+    },
+    {
+      "language": "සිංහල",
+      "enName": "Sinhala",
+      "enLowercase": "sinhala",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1jCC_nuUluQpCCm0e2EQmYY04i-dHE7Fl?usp=sharing"
+    },
+    {
+      "language": "Slovenčina",
+      "enName": "Slovak",
+      "enLowercase": "slovak",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1C0zJu0SoH6TN5jKso_y7USTnxtVLQEg-?usp=sharing"
+    },
+    {
+      "language": "Af Soomaali",
+      "enName": "Somali",
+      "enLowercase": "somali",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1NYn7cbWkD13wGztd4IgtWWY6-lKXL9v0?usp=sharing"
+    },
+    {
+      "language": "Kiswahili",
+      "enName": "Swahili",
+      "enLowercase": "swahili",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/15Tr17e3Sbd9lpCbSQ7Br_8SdVnp_5ozP?usp=sharing"
+    },
+    {
+      "language": "தமிழ்",
+      "enName": "Tamil",
+      "enLowercase": "tamil",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1ynsh5-l8-TAHAB_QWeFQO9524BmsQEZb?usp=sharing"
+    },
+    {
+      "language": "తెలుగు",
+      "enName": "Telugu",
+      "enLowercase": "telugu",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1UDnBw1GILvRNpVTyESqo-7BV2Zbaj8UX?usp=sharing"
+    },
+    {
+      "language": "ภาษาไทย",
+      "enName": "Thai",
+      "enLowercase": "thai",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1jjcHlTjrvsfmAgxS4w-lUs-SpVS2Z7bk?usp=sharing"
+    },
+    {
+      "language": "བོད་སྐད",
+      "enName": "Tibetan",
+      "enLowercase": "tibetan",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/13fQQyRcWfwo3HKbFNvZvqFtoTHpx8473?usp=sharing"
+    },
+    {
+      "language": "ትግርኛ",
+      "enName": "Tigrinya",
+      "enLowercase": "tigrinya",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1B48qkm76glPvz-MMF7v6j_KrmurdF_d7?usp=sharing"
+    },
+    {
+      "language": "lea fakatonga",
+      "enName": "Tongan",
+      "enLowercase": "tongan",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1SyJfy-n9y3_MpmQzYxq-Prja6b3Pyh8B?usp=sharing"
+    },
+    {
+      "language": "Türkçe",
+      "enName": "Turkish",
+      "enLowercase": "turkish",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1AhgKAJpqhaYskZNnzzPaESPQHVwLkvob?usp=sharing"
+    },
+    {
+      "language": "Twi",
+      "enName": "Twi",
+      "enLowercase": "twi",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1jN-bkvBGZ0fQrT4prnZy4OfpFdbwcUJC?usp=sharing"
+    },
+    {
+      "language": "українська мова",
+      "enName": "Ukrainian",
+      "enLowercase": "ukrainian",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/14Cs5QcLuBRh52G-rVuirwLy5OSyN4cWj?usp=sharing"
+    },
+    {
+      "language": "اردو",
+      "enName": "Urdu",
+      "enLowercase": "urdu",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1rALfNk7VqYRZqOKGtQm-W3znVjKxe-05?usp=sharing"
+    },
+    {
+      "language": "ייִדיש",
+      "enName": "Yiddish",
+      "enLowercase": "yiddish",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1ZkwUTMN6BVh5F5NAeaqDtk19z6ZtAuuR?usp=sharing"
+    },
+    {
+      "language": "Èdè Yorùbá",
+      "enName": "Yoruba",
+      "enLowercase": "yoruba",
+      "linkToGoogleDrive": "https://drive.google.com/drive/folders/1XyQvW3eDO54mTAU4LgjcaO_4JnKX2brH?usp=sharing"
+    }
+  ]
+}
