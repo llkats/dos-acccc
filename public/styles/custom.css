@@ -31,8 +31,9 @@ main {
 header {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-bottom: 3rem;
+  padding: 2rem 0;
 }
 
 header h1 {
@@ -57,6 +58,11 @@ header h2 {
   margin: 6rem 0 0;
 }
 
+header h1,
+header h2 {
+  padding-left: 10rem;
+}
+
 .question-circle-icon {
   background-image: url(../img/question-circle.png);
   display: block;
@@ -66,7 +72,6 @@ header h2 {
 
 .main-logo-container {
   display: block;
-  margin-top: 2rem;
   max-width: 200px;
 }
 
