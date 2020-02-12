@@ -28,21 +28,14 @@
             > Help: 510-555-1234</h2>
         </div>
       </header>
-      <section class="primary-languages">
-        {{> ../partials/primary-languages-list }}
-      </section>
-
-      <section class="secondary-languages" id="secondary-languages-list" role="search">
-        <div class="more-icons-container">
+      <section class="languages" id="languages-list" role="search">
+        <form class="languages-list-filter usa-search usa-search-big">
+          <label class="usa-sr-only" for="language-filter">More Languages</label>
           <img
             class="languages-icon"
             src="{{htmlWebpackPlugin.options.data.assetPath}}/img/languages_icon.png"
             alt="find more language options below"
           >
-          <i class="fas fa-arrow-down"></i>
-        </div>
-        <form class="secondary-languages-filter usa-search usa-search-big">
-          <label class="usa-sr-only" for="language-filter">More Languages</label>
           <input
             class="search"
             id="language-filter"
@@ -55,7 +48,7 @@
             <span class="usa-search-submit-text">Search</span>
           </button>
         </form>
-        {{> ../partials/secondary-languages-list }}
+        {{> ../partials/languages-list }}
       </section>
 
     </main>

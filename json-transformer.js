@@ -11,29 +11,19 @@ const convertJsonToReadableJson = (data) => {
     return false
   }
 
-  let primaryLanguages = []
-  let secondaryLanguages = []
-  data.forEach((row, i) => {
+  const languages = data.map((row, i) => {
     const enLanguage = row.enLanguage || row['Language']
-    const pagePosition = row.pagePosition || row['Page Position']
 
-    const mainPagePlacement = {
+    return {
       language: row.languageName || row['Language Name (in Native Script)'],
       enName: enLanguage,
       enLowercase: enLanguage.toLowerCase(),
       linkToGoogleDrive: row.link || row['Link to Google Drive']
     }
-
-    if (pagePosition && (pagePosition.toLowerCase() === 'top')) {
-      primaryLanguages.push(mainPagePlacement)
-    } else {
-      secondaryLanguages.push(mainPagePlacement)
-    }
   })
 
   return JSON.stringify({
-    primaryLanguages,
-    secondaryLanguages
+    languages
   })
 }
 

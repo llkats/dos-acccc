@@ -1,10 +1,10 @@
 import List from 'list.js'
 
 // const secondaryLangs = {{{ secondaryLanguagesJSON }}}
-const secondaryLangs = []
+const langs = []
 
 // list.js: https://listjs.com/docs/
-const languagesList = new List('secondary-languages-list',
+const languagesList = new List('languages-list',
   {
     valueNames: [
       'language',
