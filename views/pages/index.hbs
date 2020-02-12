@@ -43,17 +43,19 @@
             src="{{htmlWebpackPlugin.options.data.assetPath}}/img/languages_icon.png"
             alt="find more language options below"
           >
-          <input
-            class="search"
-            id="language-filter"
-            name="search"
-            placeholder="Search for a language..."
-            title="Type in a language"
-            type="search"
-          >
-          <button type="submit">
-            <span class="usa-search-submit-text">Search</span>
-          </button>
+          <div class="input-container">
+            <input
+              class="search"
+              id="language-filter"
+              name="search"
+              placeholder="Search for a language..."
+              title="Type in a language"
+              type="search"
+            >
+            <button type="submit">
+              <span class="usa-search-submit-text">Search</span>
+            </button>
+          </div>
         </form>
         {{> ../partials/languages-list }}
       </section>

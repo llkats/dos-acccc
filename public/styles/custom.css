@@ -96,7 +96,7 @@ header h2 {
 
 .languages-list-filter {
   margin: 0 auto 2em;
-  width: 80%;
+  width: 85%;
 }
 
 .language-item {
@@ -108,8 +108,14 @@ header h2 {
 
 .languages-icon {
   float: left;
-  height: 44px;
-  width: 44px;
+  height: 8rem;
+  margin-right: 2rem;
+  width: 8rem;
+}
+
+.input-container {
+  display: flex;
+  margin-top: 2rem;
 }
 
 @media only screen and (min-width: 600px) {
