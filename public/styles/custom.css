@@ -44,8 +44,8 @@ header h1 {
 }
 
 .fancy-header-text {
-  color: #999;
-  font-weight: 300;
+  color: #666;
+  font-weight: 500;
   font-size: 2rem;
 }
 .fancy-header-text.second {
