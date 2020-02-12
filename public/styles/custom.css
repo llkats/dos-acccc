@@ -123,47 +123,6 @@ header h2 {
     max-width: 900px;
     padding: 0 2em;
   }
-
-  .secondary-header {
-    display: block;
-    height: 75px;
-    width: 100%;
-  }
-
-  .secondary-header-nav {
-    font-size: 2.4rem;
-    font-weight: 700;
-    line-height: 1;
-    margin-top: 0.5em;
-    margin-right: 0.5em;
-    margin-bottom: 0.5em;
-    padding: 1.5rem 3rem;
-    width: auto;
-  }
-
-  .secondary-header-nav__back {
-    float: left;
-  }
-
-  .secondary-header-nav__start {
-    float: right;
-  }
-
-  .more-info-facts {
-    flex-direction: row;
-    margin: 10rem 0 5rem;
-  }
-
-  .additional-resources-button {
-    max-width: 300px;
-  }
-
-  .infographic-down-arrow {
-    display: none;
-  }
-  .infographic-right-arrow {
-    display: block;
-  }
 }
 
 .dark {
