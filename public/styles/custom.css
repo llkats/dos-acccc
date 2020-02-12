@@ -75,6 +75,11 @@ header h2 {
   max-width: 200px;
 }
 
+.census-guide-image {
+  border: 1px solid #aaa;
+  box-shadow: 3px 3px 5px #999;
+}
+
 .languages {
   display: flex;
   flex-wrap: wrap;
