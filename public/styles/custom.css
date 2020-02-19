@@ -89,12 +89,12 @@ header h2 {
   padding: 0;
 }
 
-.languages-list {
+.languages.list {
   align-content: flex-start;
   min-height: 900px;
 }
 
-.languages-list .usa-button {
+.languages.list .usa-button {
   margin: 0.15em;
   width: 150px;
 }
